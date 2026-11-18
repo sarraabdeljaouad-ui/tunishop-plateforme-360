@@ -1,0 +1,1332 @@
+client_id,prenom,nom,raison_sociale,ville
+CLI000001,Omar,Sfar,,Gafsa
+CLI000022,Youssef,Lahmar,,Kalâa Kebira
+CLI000071,Aymen,Belhadj,,El Jem
+CLI000080,Mariem,Mansouri,,El Fahs
+CLI000087,Sami,Sfar,,Sakiet Eddaïer
+CLI000093,Eya,Sfar,,Aïn Draham
+CLI000096,Mehdi,Sfar,,Ezzahra
+CLI000101,Anis,Belhadj,,Kairouan
+CLI000108,Zied,Sfar,Sfar Services Sarl,Tunis
+CLI000111,Siwar,Mansouri,,Regueb
+CLI000114,Chaima,Belhadj,,Bizerte
+CLI000115,Nour,Lahmar,,Redeyef
+CLI000124,Eya,Sfar,,Gafsa
+CLI000144,Aya,Belhadj,,Nabeul
+CLI000161,Walid,Sfar,,Carthage
+CLI000178,Amira,Mansouri,,Moknine
+CLI000179,Nabil,Mansouri,,Zarzis
+CLI000194,Khadija,Sfar,,Tunis
+CLI000222,Sonia,Sfar,,Ben Arous
+CLI000243,Salma,Belhadj,,Monastir
+CLI000270,Nour,Sfar,,Mateur
+CLI000273,Hamza,Sfar,,Kairouan
+CLI000285,Riadh,Belhadj,,Ezzahra
+CLI000291,Hiba,Belhadj,Belhadj Bureautique SA,Sbeïtla
+CLI000295,Mehdi,Belhadj,,Kairouan
+CLI000304,Karim,Mansouri,,Siliana
+CLI000305,Asma,Lahmar,,Kébili
+CLI000322,Dorra,Lahmar,,Ben Arous
+CLI000334,Youssef,Lahmar,,Sidi Bouzid
+CLI000342,Seif,Lahmar,,Ben Arous
+CLI000346,Chaima,Mansouri,,Ksour Essef
+CLI000349,Sami,Lahmar,,El Hamma
+CLI000357,Amine,Lahmar,,La Marsa
+CLI000363,Leila,Belhadj,,Sakiet Ezzit
+CLI000373,Nabil,Sfar,,Moknine
+CLI000378,Khadija,Mansouri,,Le Kef
+CLI000415,Ali,Mansouri,,Sakiet Ezzit
+CLI000454,Sarra,Sfar,,Sakiet Ezzit
+CLI000455,Siwar,Belhadj,,Radès
+CLI000458,Slim,Lahmar,,Hammamet
+CLI000481,Chaima,Mansouri,,Sbeïtla
+CLI000486,Sonia,Mansouri,,Monastir
+CLI000488,Wafa,Sfar,,Kasserine
+CLI000493,Lamia,Lahmar,,Den Den
+CLI000503,Riadh,Belhadj,,Haffouz
+CLI000550,Riadh,Lahmar,,Kélibia
+CLI000572,Salma,Mansouri,,Hammamet
+CLI000610,Amine,Belhadj,,La Marsa
+CLI000612,Mariem,Sfar,,Nabeul
+CLI000619,Malek,Mansouri,,Gabès
+CLI000623,Ali,Mansouri,,El Fahs
+CLI000631,Nabil,Mansouri,,Ksour Essef
+CLI000648,Bilel,Lahmar,Lahmar Bureautique SA,Ben Arous
+CLI000674,Olfa,Belhadj,,Mateur
+CLI000695,Houda,Belhadj,,Le Bardo
+CLI000706,Sarra,Mansouri,,Den Den
+CLI000715,Amine,Lahmar,,Le Kef
+CLI000736,Salma,Sfar,,La Marsa
+CLI000747,Malek,Belhadj,,Ben Arous
+CLI000753,Karim,Sfar,,Raoued
+CLI000761,Malek,Sfar,,Sousse
+CLI000811,Rami,Lahmar,,Sousse
+CLI000818,Mouna,Mansouri,,Sbeïtla
+CLI000821,Karim,Sfar,,Le Bardo
+CLI000847,Seif,Sfar,,Sakiet Ezzit
+CLI000856,Rim,Mansouri,,Nabeul
+CLI000865,Wafa,Sfar,,La Soukra
+CLI000871,Mouna,Lahmar,,Sfax
+CLI000875,Tarek,Sfar,,Sousse
+CLI000879,Hiba,Belhadj,Belhadj Bureautique Sarl,Monastir
+CLI000886,Malek,Mansouri,,Kélibia
+CLI000889,Olfa,Sfar,,Jendouba
+CLI000903,Firas,Lahmar,,La Marsa
+CLI000906,Ines,Belhadj,,Kasserine
+CLI000915,Dorra,Mansouri,,Ben Arous
+CLI000923,Eya,Lahmar,,Le Kef
+CLI000924,Amira,Sfar,,Moknine
+CLI000929,Bilel,Sfar,,Den Den
+CLI000934,Mariem,Lahmar,,Kasserine
+CLI000966,Emna,Lahmar,,Ariana Ville
+CLI000971,Malek,Lahmar,,Siliana
+CLI000989,Siwar,Mansouri,,Béja
+CLI000994,Slim,Belhadj,,Ariana Ville
+CLI001029,Olfa,Belhadj,,Bizerte
+CLI001038,Omar,Lahmar,,Bizerte
+CLI001052,Rania,Belhadj,,Monastir
+CLI001079,Salma,Lahmar,,La Marsa
+CLI001090,Mehdi,Mansouri,,Nabeul
+CLI001112,Asma,Mansouri,,Medjez el-Bab
+CLI001115,Olfa,Lahmar,,Mahdia
+CLI001132,Hiba,Lahmar,,Tunis
+CLI001141,Slim,Lahmar,,Tataouine
+CLI001158,Omar,Mansouri,,Sfax
+CLI001172,Sami,Lahmar,,Nefta
+CLI001183,Asma,Lahmar,,Gabès
+CLI001185,Khadija,Belhadj,,Nabeul
+CLI001200,Nour,Belhadj,,Msaken
+CLI001207,Hiba,Mansouri,,Le Bardo
+CLI001219,Olfa,Sfar,,Carthage
+CLI001240,Rania,Belhadj,,Siliana
+CLI001246,Slim,Lahmar,,Sfax
+CLI001282,Fares,Sfar,,La Marsa
+CLI001294,Dorra,Belhadj,,Hammamet
+CLI001298,Eya,Sfar,,La Marsa
+CLI001308,Nesrine,Lahmar,,La Marsa
+CLI001328,Khadija,Sfar,,La Marsa
+CLI001334,Ines,Sfar,,Métlaoui
+CLI001340,Seif,Lahmar,,Métlaoui
+CLI001355,Slim,Lahmar,,El Hamma
+CLI001372,Imen,Lahmar,,Ezzahra
+CLI001378,Bilel,Lahmar,,Sfax
+CLI001379,Wassim,Belhadj,,Ariana Ville
+CLI001383,Chaima,Lahmar,,Mateur
+CLI001397,Zied,Belhadj,,Makthar
+CLI001417,Aymen,Sfar,,Kalâa Kebira
+CLI001421,Houda,Lahmar,,Tunis
+CLI001424,Mouna,Sfar,,Den Den
+CLI001432,Wafa,Sfar,,Ezzahra
+CLI001433,Rania,Sfar,,Manouba
+CLI001435,Salma,Mansouri,,Sousse
+CLI001444,Omar,Belhadj,,Kairouan
+CLI001462,Nesrine,Belhadj,,Siliana
+CLI001482,Aya,Mansouri,,Medjez el-Bab
+CLI001491,Chaima,Sfar,,Kasserine
+CLI001503,Yasmine,Mansouri,,Raoued
+CLI001514,Salma,Lahmar,,Medjez el-Bab
+CLI001537,Fatma,Sfar,,Nabeul
+CLI001592,Ines,Mansouri,,Sakiet Ezzit
+CLI001600,Leila,Belhadj,,Le Kef
+CLI001651,Walid,Belhadj,,Le Bardo
+CLI001654,Zied,Mansouri,,Sousse
+CLI001664,Aya,Mansouri,,Kalâa Kebira
+CLI001667,Dorra,Belhadj,,Oued Ellil
+CLI001685,Bilel,Belhadj,,Kélibia
+CLI001701,Salma,Sfar,,Den Den
+CLI001706,Imen,Belhadj,Belhadj Commerce Sarl,Medjez el-Bab
+CLI001745,Rim,Mansouri,,Kalâa Kebira
+CLI001754,Rania,Belhadj,,Carthage
+CLI001767,Nour,Belhadj,,Raoued
+CLI001780,Hamza,Sfar,,Ariana Ville
+CLI001789,Zied,Sfar,,Kélibia
+CLI001792,Ines,Mansouri,,El Hamma
+CLI001802,Salma,Sfar,,Monastir
+CLI001803,Wassim,Mansouri,,Kairouan
+CLI001818,Moez,Belhadj,,Sfax
+CLI001821,Rami,Sfar,,Ksour Essef
+CLI001850,Chaima,Sfar,,Hammamet
+CLI001861,Chaima,Mansouri,,Sidi Bouzid
+CLI001872,Bilel,Belhadj,,Tunis
+CLI001874,Samia,Belhadj,,Sfax
+CLI001894,Fatma,Lahmar,,Sakiet Ezzit
+CLI001898,Khadija,Sfar,,Haffouz
+CLI001901,Zied,Sfar,,Hammamet
+CLI001907,Malek,Belhadj,,Le Kef
+CLI001917,Imen,Belhadj,,Kairouan
+CLI001934,Emna,Lahmar,,Ben Arous
+CLI001940,Amine,Lahmar,,Sakiet Eddaïer
+CLI001973,Hiba,Sfar,,Kélibia
+CLI001979,Hamza,Sfar,,Tunis
+CLI001989,Mariem,Belhadj,,Kélibia
+CLI001992,Omar,Lahmar,,Nabeul
+CLI001996,Imen,Lahmar,,Sousse
+CLI002006,Skander,Mansouri,,Regueb
+CLI002050,Walid,Lahmar,,Sfax
+CLI002054,Eya,Lahmar,,Ksour Essef
+CLI002056,Wafa,Sfar,,Le Kef
+CLI002059,Nabil,Belhadj,,Oued Ellil
+CLI002061,Riadh,Sfar,,Regueb
+CLI002074,Amira,Mansouri,,Ben Arous
+CLI002077,Riadh,Belhadj,,Medjez el-Bab
+CLI002079,Omar,Lahmar,,Nabeul
+CLI002091,Hiba,Sfar,,Sbeïtla
+CLI002092,Mouna,Belhadj,,Oued Ellil
+CLI002114,Nour,Sfar,,Aïn Draham
+CLI002121,Mouna,Sfar,,La Marsa
+CLI002140,Rania,Belhadj,,Radès
+CLI002144,Rim,Belhadj,,Kélibia
+CLI002148,Nizar,Belhadj,,Sakiet Ezzit
+CLI002176,Riadh,Lahmar,,Béja
+CLI002185,Salma,Belhadj,,Kélibia
+CLI002202,Imen,Lahmar,,Sakiet Eddaïer
+CLI002208,Khadija,Mansouri,,Nefta
+CLI002219,Fatma,Sfar,,Gafsa
+CLI002251,Hiba,Mansouri,,La Marsa
+CLI002261,Ines,Mansouri,,Zaghouan
+CLI002266,Amira,Sfar,,Sakiet Ezzit
+CLI002267,Asma,Belhadj,,Kairouan
+CLI002271,Tarek,Mansouri,,Le Bardo
+CLI002280,Rania,Belhadj,,Zaghouan
+CLI002308,Emna,Belhadj,,Gafsa
+CLI002322,Skander,Lahmar,,Zarzis
+CLI002329,Riadh,Sfar,,Sakiet Eddaïer
+CLI002331,Khadija,Mansouri,,La Marsa
+CLI002347,Rania,Mansouri,,La Marsa
+CLI002351,Lamia,Lahmar,,El Hamma
+CLI002364,Leila,Sfar,,Sakiet Eddaïer
+CLI002368,Imen,Mansouri,,Menzel Bourguiba
+CLI002388,Malek,Belhadj,,Menzel Bourguiba
+CLI002409,Fares,Belhadj,,Medjez el-Bab
+CLI002413,Amira,Belhadj,,Medjez el-Bab
+CLI002428,Seif,Belhadj,,Le Bardo
+CLI002444,Salma,Sfar,,Oued Ellil
+CLI002458,Skander,Sfar,,Ksar Hellal
+CLI002469,Wafa,Sfar,,Medjez el-Bab
+CLI002473,Aymen,Sfar,,La Soukra
+CLI002481,Nour,Belhadj,,Mégrine
+CLI002485,Wassim,Sfar,,Raoued
+CLI002503,Skander,Mansouri,,El Fahs
+CLI002508,Karim,Lahmar,,Zarzis
+CLI002510,Sami,Belhadj,,El Hamma
+CLI002549,Imen,Lahmar,,Haffouz
+CLI002552,Khadija,Mansouri,,Gabès
+CLI002563,Hiba,Lahmar,,Kairouan
+CLI002581,Sami,Sfar,,Mateur
+CLI002589,Imen,Mansouri,,Nabeul
+CLI002598,Lamia,Sfar,,Sfax
+CLI002611,Ines,Belhadj,,Menzel Bourguiba
+CLI002623,Amine,Sfar,,Tunis
+CLI002661,Fatma,Sfar,,Ksar Hellal
+CLI002686,Yasmine,Mansouri,,El Hamma
+CLI002692,Malek,Sfar,,Sakiet Ezzit
+CLI002707,Nizar,Belhadj,,Sousse
+CLI002715,Slim,Mansouri,,Haffouz
+CLI002728,Tarek,Belhadj,,Radès
+CLI002734,Hamza,Lahmar,,Kélibia
+CLI002740,Eya,Lahmar,,Bizerte
+CLI002743,Hichem,Belhadj,,Sbeïtla
+CLI002748,Rania,Belhadj,,Sfax
+CLI002756,Anis,Belhadj,,Ksar Hellal
+CLI002788,Mouna,Sfar,,Mateur
+CLI002797,Sami,Mansouri,,Moknine
+CLI002815,Omar,Lahmar,,Moknine
+CLI002860,Rania,Belhadj,,Raoued
+CLI002869,Fares,Mansouri,,Raoued
+CLI002872,Firas,Lahmar,,Msaken
+CLI002873,Aya,Sfar,,Le Kef
+CLI002886,Rania,Lahmar,,Gafsa
+CLI002910,Siwar,Lahmar,,Le Kef
+CLI002912,Sami,Mansouri,,Menzel Bourguiba
+CLI002948,Moez,Belhadj,,Siliana
+CLI002953,Emna,Lahmar,,Oued Ellil
+CLI002968,Sami,Sfar,,Hammamet
+CLI002973,Bilel,Sfar,,Haffouz
+CLI002998,Nour,Mansouri,,Kasserine
+CLI002999,Rania,Belhadj,,La Marsa
+CLI003005,Omar,Lahmar,,Ezzahra
+CLI003047,Chaima,Mansouri,,Béja
+CLI003051,Rania,Sfar,,La Soukra
+CLI003055,Rami,Sfar,,Ben Arous
+CLI003085,Chaima,Lahmar,,Gabès
+CLI003087,Mehdi,Sfar,,Radès
+CLI003095,Aya,Mansouri,,Bizerte
+CLI003112,Fares,Mansouri,,Sakiet Eddaïer
+CLI003117,Youssef,Sfar,,La Marsa
+CLI003120,Ali,Belhadj,,Den Den
+CLI003123,Ines,Belhadj,,Menzel Bourguiba
+CLI003129,Seif,Lahmar,,Mahdia
+CLI003139,Fatma,Sfar,,Gabès
+CLI003162,Emna,Lahmar,,Ariana Ville
+CLI003170,Houda,Mansouri,,La Soukra
+CLI003172,Leila,Mansouri,,Métlaoui
+CLI003184,Olfa,Sfar,,Carthage
+CLI003228,Rami,Belhadj,,El Hamma
+CLI003229,Karim,Belhadj,,Regueb
+CLI003230,Imen,Lahmar,,Ariana Ville
+CLI003260,Malek,Lahmar,,La Soukra
+CLI003263,Wafa,Sfar,,Oued Ellil
+CLI003291,Wafa,Belhadj,,Monastir
+CLI003292,Moez,Sfar,,La Soukra
+CLI003310,Khadija,Sfar,,Redeyef
+CLI003311,Olfa,Mansouri,,Gafsa
+CLI003348,Hichem,Lahmar,,La Marsa
+CLI003363,Wafa,Belhadj,,Ezzahra
+CLI003368,Hamza,Belhadj,,Msaken
+CLI003369,Rami,Lahmar,,Radès
+CLI003370,Nesrine,Mansouri,,Manouba
+CLI003398,Seif,Lahmar,,Hammamet
+CLI003401,Hiba,Lahmar,,Haffouz
+CLI003440,Khadija,Mansouri,,Msaken
+CLI003457,Houda,Mansouri,,Jendouba
+CLI003458,Riadh,Lahmar,,Medjez el-Bab
+CLI003496,Walid,Lahmar,,Ben Arous
+CLI003506,Nour,Belhadj,,Sakiet Ezzit
+CLI003521,Walid,Sfar,,Monastir
+CLI003524,Fatma,Sfar,,Tunis
+CLI003532,Tarek,Mansouri,,Kélibia
+CLI003553,Samia,Belhadj,,Djerba Houmt Souk
+CLI003557,Leila,Belhadj,,Hammam Sousse
+CLI003581,Imen,Sfar,,Aïn Draham
+CLI003637,Wafa,Sfar,,Kélibia
+CLI003677,Salma,Belhadj,,Kalâa Kebira
+CLI003689,Siwar,Belhadj,,El Fahs
+CLI003695,Malek,Lahmar,,Sidi Bouzid
+CLI003696,Riadh,Mansouri,,Tabarka
+CLI003697,Nour,Sfar,,Médenine
+CLI003703,Sami,Mansouri,,Kalâa Kebira
+CLI003714,Khadija,Lahmar,,Ezzahra
+CLI003724,Eya,Sfar,,Monastir
+CLI003731,Lamia,Sfar,,Sfax
+CLI003740,Riadh,Belhadj,,Nabeul
+CLI003754,Slim,Belhadj,,Bizerte
+CLI003762,Wassim,Sfar,,Mahdia
+CLI003766,Hiba,Belhadj,,Mateur
+CLI003801,Salma,Sfar,,Kasserine
+CLI003803,Rim,Sfar,,Den Den
+CLI003804,Mariem,Lahmar,,Ezzahra
+CLI003806,Sonia,Belhadj,,Regueb
+CLI003830,Asma,Lahmar,,Siliana
+CLI003835,Nesrine,Mansouri,,Carthage
+CLI003836,Ines,Sfar,,Nabeul
+CLI003861,Nour,Belhadj,,Tunis
+CLI003895,Fatma,Mansouri,,Nabeul
+CLI003902,Sarra,Sfar,,Le Kef
+CLI003925,Zied,Lahmar,,Sakiet Ezzit
+CLI003937,Eya,Sfar,,Sfax
+CLI003958,Mariem,Lahmar,,La Soukra
+CLI003963,Ines,Lahmar,Lahmar Distribution Sarl,Sousse
+CLI003971,Tarek,Mansouri,,Nabeul
+CLI003989,Khadija,Belhadj,,Raoued
+CLI003996,Yasmine,Mansouri,,La Marsa
+CLI004005,Aymen,Mansouri,,Bizerte
+CLI004034,Lamia,Sfar,,Le Bardo
+CLI004044,Nizar,Sfar,,La Marsa
+CLI004049,Ahmed,Sfar,,Ben Arous
+CLI004054,Leila,Mansouri,,Kairouan
+CLI004056,Moez,Sfar,,Mateur
+CLI004066,Hichem,Belhadj,,La Soukra
+CLI004067,Siwar,Belhadj,,Mahdia
+CLI004073,Nabil,Lahmar,,Haffouz
+CLI004074,Riadh,Belhadj,,Tabarka
+CLI004086,Youssef,Lahmar,,Regueb
+CLI004092,Imen,Belhadj,,Nabeul
+CLI004095,Wassim,Mansouri,,Mahdia
+CLI004107,Slim,Belhadj,,Sousse
+CLI004118,Anis,Mansouri,,Ezzahra
+CLI004129,Skander,Belhadj,,Zaghouan
+CLI004155,Skander,Mansouri,,Carthage
+CLI004172,Amira,Mansouri,,Tabarka
+CLI004176,Walid,Belhadj,,Tunis
+CLI004181,Fatma,Belhadj,,Zaghouan
+CLI004182,Emna,Belhadj,,Ksar Hellal
+CLI004194,Riadh,Lahmar,,Aïn Draham
+CLI004195,Wafa,Belhadj,,Mégrine
+CLI004198,Houda,Lahmar,,Ksar Hellal
+CLI004210,Mariem,Mansouri,,Kairouan
+CLI004213,Youssef,Belhadj,,Sakiet Ezzit
+CLI004227,Amine,Mansouri,,Hammam Sousse
+CLI004233,Malek,Belhadj,,Kélibia
+CLI004243,Zied,Mansouri,,Ariana Ville
+CLI004263,Ali,Belhadj,,Sakiet Eddaïer
+CLI004277,Salma,Belhadj,,Kasserine
+CLI004280,Ali,Lahmar,,Gabès
+CLI004284,Fatma,Sfar,,El Hamma
+CLI004298,Moez,Lahmar,,Medjez el-Bab
+CLI004302,Asma,Lahmar,,Monastir
+CLI004303,Slim,Sfar,,Tunis
+CLI004326,Hamza,Lahmar,,Djerba Houmt Souk
+CLI004335,Riadh,Mansouri,,Tataouine
+CLI004346,Sami,Belhadj,,Nabeul
+CLI004352,Rania,Lahmar,,Ezzahra
+CLI004412,Ahmed,Mansouri,,Radès
+CLI004443,Wafa,Lahmar,,Sousse
+CLI004444,Nabil,Sfar,,Douz
+CLI004453,Imen,Belhadj,,Kalâa Kebira
+CLI004464,Malek,Mansouri,,Le Bardo
+CLI004472,Moez,Mansouri,,Ben Arous
+CLI004480,Rania,Lahmar,,Sakiet Eddaïer
+CLI004502,Chaima,Sfar,,El Hamma
+CLI004505,Eya,Belhadj,,Monastir
+CLI004516,Wafa,Mansouri,,Le Bardo
+CLI004517,Nour,Belhadj,,Makthar
+CLI004530,Chaima,Lahmar,,Sbeïtla
+CLI004551,Wafa,Belhadj,,Manouba
+CLI004558,Lamia,Lahmar,,El Hamma
+CLI004564,Mariem,Sfar,,Sfax
+CLI004583,Firas,Belhadj,,Ben Arous
+CLI004585,Leila,Lahmar,,Dahmani
+CLI004589,Yasmine,Mansouri,,Menzel Bourguiba
+CLI004594,Bilel,Mansouri,,Regueb
+CLI004596,Ali,Belhadj,,Haffouz
+CLI004605,Hamza,Sfar,,Zaghouan
+CLI004610,Aymen,Belhadj,,Sakiet Ezzit
+CLI004618,Imen,Sfar,,Sakiet Eddaïer
+CLI004625,Mouna,Sfar,,Kalâa Kebira
+CLI004628,Chaima,Belhadj,,Ben Arous
+CLI004641,Malek,Belhadj,,Siliana
+CLI004642,Karim,Mansouri,,Tabarka
+CLI004654,Nesrine,Belhadj,,Den Den
+CLI004656,Mehdi,Lahmar,,Sakiet Eddaïer
+CLI004664,Eya,Lahmar,,Mégrine
+CLI004670,Zied,Sfar,,Sfax
+CLI004672,Aya,Belhadj,,Radès
+CLI004685,Hamza,Mansouri,,Béja
+CLI004693,Nour,Belhadj,,Sbeïtla
+CLI004695,Skander,Lahmar,,Radès
+CLI004699,Mariem,Belhadj,,Raoued
+CLI004756,Aya,Mansouri,,Sousse
+CLI004785,Ahmed,Mansouri,,Tataouine
+CLI004834,Ahmed,Mansouri,,Mégrine
+CLI004873,Youssef,Sfar,,Le Bardo
+CLI004883,Seif,Belhadj,,El Hamma
+CLI004898,Houda,Sfar,,Siliana
+CLI004921,Asma,Mansouri,,Monastir
+CLI004926,Amine,Lahmar,,Moknine
+CLI004942,Sarra,Belhadj,,Sidi Bouzid
+CLI004956,Nesrine,Sfar,,Ezzahra
+CLI004968,Sonia,Sfar,,Kalâa Kebira
+CLI004981,Nabil,Mansouri,,Gafsa
+CLI004982,Ahmed,Mansouri,Mansouri Bureautique SA,Sakiet Eddaïer
+CLI004992,Bilel,Sfar,,Kalâa Kebira
+CLI005027,Emna,Sfar,,Tunis
+CLI005037,Malek,Mansouri,,Tunis
+CLI005049,Malek,Sfar,,Medjez el-Bab
+CLI005054,Houda,Sfar,,La Soukra
+CLI005077,Mouna,Belhadj,,Le Bardo
+CLI005082,Dorra,Mansouri,,Oued Ellil
+CLI005084,Hamza,Belhadj,,Den Den
+CLI005085,Amira,Belhadj,,El Jem
+CLI005095,Mariem,Mansouri,,Mateur
+CLI005100,Wafa,Sfar,,Nabeul
+CLI005147,Dorra,Sfar,,Redeyef
+CLI005165,Rania,Lahmar,,Monastir
+CLI005176,Rim,Belhadj,,Makthar
+CLI005182,Anis,Lahmar,,Nabeul
+CLI005191,Imen,Belhadj,,Jendouba
+CLI005194,Aymen,Lahmar,,Monastir
+CLI005198,Olfa,Belhadj,,Sousse
+CLI005202,Chaima,Mansouri,,Tunis
+CLI005220,Emna,Mansouri,,Sousse
+CLI005250,Hamza,Sfar,,Sakiet Eddaïer
+CLI005270,Mouna,Sfar,,Sakiet Ezzit
+CLI005276,Hamza,Belhadj,,Sousse
+CLI005277,Mouna,Mansouri,,Radès
+CLI005291,Imen,Mansouri,,Radès
+CLI005306,Leila,Lahmar,,Gabès
+CLI005317,Walid,Sfar,,Le Bardo
+CLI005327,Rim,Mansouri,,La Marsa
+CLI005331,Rania,Belhadj,,Métlaoui
+CLI005350,Bilel,Lahmar,,Sbeïtla
+CLI005357,Wafa,Mansouri,,Sfax
+CLI005358,Sarra,Lahmar,,Bizerte
+CLI005373,Seif,Sfar,,Radès
+CLI005380,Sami,Lahmar,,Radès
+CLI005406,Malek,Lahmar,,Msaken
+CLI005408,Khadija,Belhadj,,Tabarka
+CLI005422,Aya,Mansouri,,Ezzahra
+CLI005427,Fatma,Mansouri,,Ksour Essef
+CLI005428,Wafa,Mansouri,,Sidi Bouzid
+CLI005437,Ahmed,Mansouri,,Zarzis
+CLI005449,Leila,Belhadj,,La Marsa
+CLI005461,Sonia,Belhadj,,La Soukra
+CLI005476,Mohamed,Sfar,,Menzel Bourguiba
+CLI005499,Sarra,Lahmar,,Sfax
+CLI005504,Youssef,Mansouri,,Métlaoui
+CLI005527,Youssef,Sfar,,Moknine
+CLI005538,Samia,Sfar,,Aïn Draham
+CLI005555,Sami,Belhadj,,Kairouan
+CLI005559,Zied,Sfar,,La Marsa
+CLI005569,Ines,Sfar,,Tozeur
+CLI005573,Hiba,Lahmar,,Béja
+CLI005580,Amine,Mansouri,,Sakiet Ezzit
+CLI005589,Anis,Mansouri,,Tabarka
+CLI005602,Seif,Mansouri,,Nabeul
+CLI005606,Sonia,Mansouri,,La Marsa
+CLI005607,Siwar,Lahmar,,Sfax
+CLI005616,Nabil,Mansouri,,Kasserine
+CLI005617,Hichem,Belhadj,,Nabeul
+CLI005635,Amira,Lahmar,,Kalâa Kebira
+CLI005640,Skander,Belhadj,,Aïn Draham
+CLI005644,Siwar,Belhadj,,Béja
+CLI005656,Nizar,Belhadj,,Dahmani
+CLI005657,Ahmed,Mansouri,,Mahdia
+CLI005713,Riadh,Mansouri,,Zarzis
+CLI005724,Imen,Mansouri,,Haffouz
+CLI005728,Chaima,Sfar,,La Marsa
+CLI005731,Dorra,Sfar,Sfar Équipements SA,Kélibia
+CLI005740,Hiba,Sfar,,Manouba
+CLI005743,Ali,Belhadj,,Médenine
+CLI005754,Wafa,Sfar,,Gafsa
+CLI005756,Ines,Belhadj,,Radès
+CLI005760,Chaima,Belhadj,,Raoued
+CLI005761,Yasmine,Mansouri,,Médenine
+CLI005766,Hamza,Mansouri,,El Hamma
+CLI005772,Houda,Belhadj,,Monastir
+CLI005789,Nabil,Belhadj,,Ezzahra
+CLI005793,Rania,Sfar,,Msaken
+CLI005795,Riadh,Mansouri,Mansouri Commerce SA,Haffouz
+CLI005803,Olfa,Lahmar,,Sfax
+CLI005807,Hiba,Belhadj,,Sousse
+CLI005808,Wassim,Belhadj,,Msaken
+CLI005814,Slim,Belhadj,,Kalâa Kebira
+CLI005815,Malek,Mansouri,,Médenine
+CLI005821,Nesrine,Sfar,,Raoued
+CLI005832,Slim,Lahmar,,Oued Ellil
+CLI005845,Nesrine,Sfar,,Carthage
+CLI005867,Ines,Belhadj,,Siliana
+CLI005871,Imen,Belhadj,,Hammamet
+CLI005889,Bilel,Mansouri,,Den Den
+CLI005896,Siwar,Sfar,,Ben Arous
+CLI005902,Riadh,Belhadj,,Kélibia
+CLI005908,Omar,Sfar,,Le Bardo
+CLI005931,Rania,Lahmar,,Sakiet Ezzit
+CLI005934,Ahmed,Lahmar,,Le Kef
+CLI005940,Imen,Belhadj,,Sfax
+CLI005969,Mariem,Lahmar,,Béja
+CLI005974,Hichem,Lahmar,,Carthage
+CLI005991,Fares,Lahmar,,Sfax
+CLI005995,Amine,Lahmar,,Bizerte
+CLI006016,Ines,Belhadj,,Kébili
+CLI006044,Hichem,Lahmar,,Béja
+CLI006060,Yasmine,Lahmar,,Tunis
+CLI006065,Hichem,Belhadj,,Radès
+CLI006085,Slim,Sfar,,Msaken
+CLI006096,Malek,Sfar,,Zaghouan
+CLI006112,Nesrine,Lahmar,,Jendouba
+CLI006129,Olfa,Belhadj,,Sakiet Ezzit
+CLI006131,Eya,Belhadj,,Redeyef
+CLI006134,Amira,Sfar,,Msaken
+CLI006135,Dorra,Mansouri,,Sakiet Ezzit
+CLI006138,Asma,Sfar,,Aïn Draham
+CLI006147,Fatma,Belhadj,,Kébili
+CLI006177,Aya,Lahmar,,Menzel Bourguiba
+CLI006181,Nizar,Belhadj,,La Marsa
+CLI006197,Chaima,Sfar,,Kélibia
+CLI006210,Sonia,Lahmar,,Mégrine
+CLI006223,Nizar,Lahmar,,Tunis
+CLI006233,Mariem,Belhadj,,Sakiet Ezzit
+CLI006238,Riadh,Lahmar,,Nabeul
+CLI006243,Seif,Lahmar,Lahmar Bureautique Sarl,Mahdia
+CLI006255,Mouna,Belhadj,,Tabarka
+CLI006282,Sami,Belhadj,,Den Den
+CLI006304,Imen,Lahmar,,Zaghouan
+CLI006360,Wafa,Sfar,,Dahmani
+CLI006362,Firas,Mansouri,,Tunis
+CLI006369,Hiba,Mansouri,,Kalâa Kebira
+CLI006375,Dorra,Lahmar,,Monastir
+CLI006380,Leila,Mansouri,,Ksar Hellal
+CLI006383,Ali,Lahmar,,La Marsa
+CLI006386,Nesrine,Lahmar,,Gabès
+CLI006388,Amira,Lahmar,,Oued Ellil
+CLI006438,Ali,Sfar,,Medjez el-Bab
+CLI006451,Imen,Sfar,,Jendouba
+CLI006504,Youssef,Lahmar,,Moknine
+CLI006510,Aymen,Belhadj,,Haffouz
+CLI006528,Ahmed,Mansouri,,Médenine
+CLI006535,Siwar,Lahmar,,Médenine
+CLI006542,Malek,Lahmar,,Sfax
+CLI006562,Salma,Sfar,,Médenine
+CLI006572,Salma,Lahmar,,Redeyef
+CLI006580,Hiba,Lahmar,,Sousse
+CLI006586,Firas,Mansouri,,Sfax
+CLI006597,Lamia,Sfar,,Hammam Sousse
+CLI006606,Siwar,Sfar,,Hammamet
+CLI006613,Rami,Sfar,,Ezzahra
+CLI006619,Samia,Belhadj,,Le Kef
+CLI006624,Omar,Sfar,,Sakiet Ezzit
+CLI006627,Aymen,Lahmar,,Tunis
+CLI006631,Ines,Lahmar,,Den Den
+CLI006638,Rania,Belhadj,,Hammamet
+CLI006642,Salma,Belhadj,,Kairouan
+CLI006665,Houda,Mansouri,,La Marsa
+CLI006666,Khadija,Mansouri,,Aïn Draham
+CLI006669,Emna,Sfar,,Moknine
+CLI006677,Youssef,Mansouri,,Dahmani
+CLI006680,Walid,Mansouri,,Raoued
+CLI006683,Nour,Lahmar,,Ariana Ville
+CLI006693,Chaima,Belhadj,,Sakiet Ezzit
+CLI006696,Nesrine,Sfar,,Ariana Ville
+CLI006716,Riadh,Belhadj,,Le Bardo
+CLI006723,Amine,Belhadj,,Sfax
+CLI006725,Firas,Lahmar,,Sousse
+CLI006728,Zied,Sfar,,Le Bardo
+CLI006735,Amira,Mansouri,,Nabeul
+CLI006738,Youssef,Lahmar,,Le Bardo
+CLI006743,Nizar,Lahmar,,Makthar
+CLI006748,Leila,Belhadj,Belhadj Bureautique Sarl,Tunis
+CLI006751,Nour,Lahmar,,Ksar Hellal
+CLI006761,Hichem,Sfar,,Sfax
+CLI006770,Mehdi,Belhadj,,Dahmani
+CLI006771,Emna,Sfar,,Monastir
+CLI006787,Aya,Mansouri,,Menzel Bourguiba
+CLI006793,Slim,Sfar,,Bizerte
+CLI006825,Karim,Mansouri,,Den Den
+CLI006841,Amira,Lahmar,,Ksar Hellal
+CLI006842,Asma,Mansouri,,La Soukra
+CLI006846,Wafa,Sfar,,El Jem
+CLI006848,Firas,Sfar,,Hammamet
+CLI006853,Samia,Mansouri,,Douz
+CLI006862,Lamia,Lahmar,,Sbeïtla
+CLI006884,Asma,Belhadj,,Ksar Hellal
+CLI006897,Mouna,Belhadj,,Sousse
+CLI006907,Rami,Belhadj,,Sidi Bouzid
+CLI006918,Nesrine,Mansouri,,Carthage
+CLI006919,Sarra,Belhadj,,Raoued
+CLI006933,Rim,Mansouri,,Msaken
+CLI006939,Amira,Belhadj,,Kairouan
+CLI006958,Moez,Mansouri,,Sfax
+CLI006963,Nesrine,Sfar,,Carthage
+CLI006967,Mehdi,Belhadj,,El Hamma
+CLI006991,Karim,Mansouri,,Kélibia
+CLI007011,Habib,Belhadj,,Mégrine
+CLI007020,Sonia,Sfar,,Medjez el-Bab
+CLI007070,Karim,Lahmar,,Le Bardo
+CLI007109,Nesrine,Lahmar,,Kélibia
+CLI007137,Hamza,Belhadj,,Ben Arous
+CLI007159,Mehdi,Sfar,,Ezzahra
+CLI007162,Anis,Lahmar,,Ksour Essef
+CLI007200,Riadh,Belhadj,,Menzel Bourguiba
+CLI007219,Karim,Lahmar,,Siliana
+CLI007227,Mariem,Lahmar,,Sbeïtla
+CLI007229,Wassim,Sfar,,Gafsa
+CLI007231,Yasmine,Lahmar,,Gabès
+CLI007234,Mouna,Belhadj,,Raoued
+CLI007246,Rim,Sfar,,Kairouan
+CLI007248,Bilel,Sfar,,El Hamma
+CLI007250,Rania,Belhadj,,Sidi Bouzid
+CLI007265,Bilel,Lahmar,,Den Den
+CLI007283,Ines,Sfar,,Makthar
+CLI007322,Fatma,Belhadj,,Tunis
+CLI007328,Rim,Lahmar,,Sousse
+CLI007353,Fares,Mansouri,,Ben Arous
+CLI007355,Ines,Lahmar,,Regueb
+CLI007382,Omar,Mansouri,,Moknine
+CLI007387,Hichem,Sfar,,Ezzahra
+CLI007411,Sami,Belhadj,,Mateur
+CLI007416,Slim,Mansouri,,Ksar Hellal
+CLI007421,Riadh,Mansouri,,La Marsa
+CLI007422,Asma,Sfar,,Medjez el-Bab
+CLI007444,Rania,Lahmar,,Gafsa
+CLI007452,Seif,Belhadj,,Douz
+CLI007458,Asma,Sfar,,Aïn Draham
+CLI007474,Tarek,Belhadj,,Tunis
+CLI007482,Mariem,Lahmar,,Béja
+CLI007496,Malek,Lahmar,,Raoued
+CLI007511,Walid,Sfar,,Msaken
+CLI007522,Rim,Lahmar,,La Soukra
+CLI007542,Houda,Sfar,,Msaken
+CLI007556,Samia,Belhadj,,Redeyef
+CLI007559,Chaima,Sfar,,Ksar Hellal
+CLI007574,Lamia,Sfar,,Radès
+CLI007600,Sarra,Lahmar,,Gabès
+CLI007609,Houda,Lahmar,,Sakiet Eddaïer
+CLI007611,Omar,Lahmar,,Menzel Bourguiba
+CLI007617,Walid,Lahmar,Lahmar Commerce Sarl,Sfax
+CLI007623,Olfa,Sfar,,Sakiet Ezzit
+CLI007640,Mouna,Sfar,,Nabeul
+CLI007667,Firas,Lahmar,,Mégrine
+CLI007668,Ines,Sfar,,Regueb
+CLI007710,Malek,Mansouri,,Manouba
+CLI007717,Fares,Sfar,,Raoued
+CLI007744,Olfa,Belhadj,,Haffouz
+CLI007752,Mariem,Belhadj,,La Marsa
+CLI007755,Ines,Mansouri,,Mateur
+CLI007764,Asma,Belhadj,,Ariana Ville
+CLI007765,Emna,Belhadj,,Tunis
+CLI007769,Eya,Mansouri,,Kélibia
+CLI007810,Wafa,Lahmar,,Zarzis
+CLI007820,Bilel,Belhadj,,Le Bardo
+CLI007855,Eya,Lahmar,,Mégrine
+CLI007856,Ahmed,Lahmar,,Le Bardo
+CLI007872,Mohamed,Lahmar,,Manouba
+CLI007882,Chaima,Sfar,,Sfax
+CLI007889,Chaima,Sfar,,Kalâa Kebira
+CLI007893,Wassim,Mansouri,,Radès
+CLI007902,Samia,Mansouri,,El Fahs
+CLI007912,Fares,Sfar,,La Marsa
+CLI007953,Ali,Lahmar,,Mégrine
+CLI007989,Sonia,Mansouri,,Zarzis
+CLI007990,Youssef,Sfar,,Ben Arous
+CLI007996,Bilel,Belhadj,,Sousse
+CLI007998,Fatma,Mansouri,,Mahdia
+CLI008002,Rami,Sfar,,La Marsa
+CLI008022,Amira,Sfar,,Manouba
+CLI008035,Olfa,Belhadj,,Ksour Essef
+CLI008038,Aymen,Lahmar,,Den Den
+CLI008041,Khadija,Mansouri,,Gabès
+CLI008057,Khadija,Sfar,,Nabeul
+CLI008058,Fares,Sfar,,Tunis
+CLI008069,Hamza,Mansouri,,Den Den
+CLI008078,Aya,Lahmar,,Carthage
+CLI008094,Amine,Mansouri,,Regueb
+CLI008104,Olfa,Lahmar,,Hammam Sousse
+CLI008113,Eya,Mansouri,,Mahdia
+CLI008133,Habib,Sfar,,Den Den
+CLI008138,Leila,Sfar,,Ezzahra
+CLI008144,Anis,Lahmar,,Raoued
+CLI008153,Wassim,Mansouri,,Haffouz
+CLI008202,Wassim,Mansouri,,Regueb
+CLI008228,Hiba,Belhadj,,Sakiet Eddaïer
+CLI008229,Asma,Belhadj,,Bizerte
+CLI008232,Youssef,Mansouri,,Den Den
+CLI008255,Fatma,Mansouri,,Menzel Bourguiba
+CLI008270,Imen,Sfar,,Medjez el-Bab
+CLI008286,Lamia,Sfar,,Ghomrassen
+CLI008293,Amine,Lahmar,,La Soukra
+CLI008295,Chaima,Lahmar,,Kasserine
+CLI008301,Leila,Lahmar,,Nabeul
+CLI008310,Ines,Lahmar,,Regueb
+CLI008313,Ines,Lahmar,Lahmar Services Sarl,Bizerte
+CLI008321,Nesrine,Lahmar,Lahmar Distribution SA,Le Bardo
+CLI008327,Tarek,Mansouri,,La Marsa
+CLI008337,Olfa,Sfar,,Ariana Ville
+CLI008340,Sonia,Mansouri,,Menzel Bourguiba
+CLI008341,Khadija,Mansouri,,El Jem
+CLI008367,Firas,Lahmar,,Hammamet
+CLI008379,Nesrine,Mansouri,,Ezzahra
+CLI008395,Aymen,Mansouri,,Menzel Bourguiba
+CLI008405,Rania,Lahmar,,Haffouz
+CLI008410,Nour,Sfar,,Djerba Houmt Souk
+CLI008437,Rim,Sfar,,La Marsa
+CLI008445,Dorra,Sfar,,Sakiet Eddaïer
+CLI008454,Chaima,Sfar,,Manouba
+CLI008469,Rania,Belhadj,,Kélibia
+CLI008473,Hamza,Lahmar,,Nabeul
+CLI008481,Aymen,Sfar,,Ariana Ville
+CLI008483,Dorra,Sfar,,Sfax
+CLI008501,Amira,Lahmar,,Hammam Sousse
+CLI008502,Rami,Mansouri,,Makthar
+CLI008521,Hichem,Mansouri,,Sousse
+CLI008534,Leila,Lahmar,,Djerba Houmt Souk
+CLI008535,Emna,Lahmar,,La Soukra
+CLI008553,Karim,Lahmar,,Ksar Hellal
+CLI008554,Sarra,Sfar,,Kélibia
+CLI008561,Malek,Mansouri,,Sfax
+CLI008568,Fatma,Sfar,,Hammamet
+CLI008589,Slim,Sfar,,Siliana
+CLI008594,Habib,Lahmar,,Sousse
+CLI008615,Wafa,Mansouri,,Mégrine
+CLI008622,Walid,Mansouri,,Ksar Hellal
+CLI008629,Houda,Mansouri,,Sidi Bouzid
+CLI008636,Emna,Lahmar,,Dahmani
+CLI008642,Rim,Belhadj,,Mahdia
+CLI008647,Bilel,Lahmar,,El Fahs
+CLI008687,Karim,Mansouri,,Redeyef
+CLI008728,Eya,Lahmar,,Moknine
+CLI008736,Moez,Sfar,,Ariana Ville
+CLI008752,Mehdi,Sfar,,Zaghouan
+CLI008784,Aymen,Mansouri,,Sakiet Eddaïer
+CLI008806,Samia,Sfar,,Monastir
+CLI008820,Houda,Sfar,,Hammam Sousse
+CLI008822,Asma,Mansouri,,Béja
+CLI008832,Leila,Sfar,Sfar Distribution Sarl,Mégrine
+CLI008843,Khadija,Sfar,,Ezzahra
+CLI008849,Dorra,Belhadj,,La Marsa
+CLI008850,Nour,Sfar,,Douz
+CLI008872,Nour,Mansouri,,La Marsa
+CLI008885,Habib,Lahmar,,Nabeul
+CLI008886,Emna,Sfar,,Msaken
+CLI008895,Chaima,Mansouri,,Ezzahra
+CLI008905,Amira,Belhadj,,Ariana Ville
+CLI008915,Karim,Belhadj,,Manouba
+CLI008916,Wafa,Sfar,,Le Bardo
+CLI008942,Salma,Lahmar,,Métlaoui
+CLI008947,Mehdi,Belhadj,,Mahdia
+CLI008956,Salma,Mansouri,,Kasserine
+CLI008960,Eya,Mansouri,,El Jem
+CLI008966,Slim,Mansouri,,Sousse
+CLI008970,Emna,Lahmar,,Medjez el-Bab
+CLI008974,Amira,Lahmar,,Jendouba
+CLI008998,Mouna,Sfar,,Tunis
+CLI009002,Hamza,Mansouri,,Tunis
+CLI009005,Zied,Sfar,,Msaken
+CLI009011,Houda,Lahmar,,La Marsa
+CLI009012,Leila,Belhadj,,Sakiet Eddaïer
+CLI009026,Sarra,Lahmar,,Kélibia
+CLI009033,Ines,Belhadj,,Aïn Draham
+CLI009052,Slim,Mansouri,,Aïn Draham
+CLI009069,Malek,Sfar,,Ariana Ville
+CLI009070,Asma,Sfar,,Gabès
+CLI009080,Olfa,Mansouri,,Médenine
+CLI009082,Mehdi,Belhadj,,Métlaoui
+CLI009083,Hamza,Sfar,,Bizerte
+CLI009094,Seif,Sfar,,Ezzahra
+CLI009114,Olfa,Lahmar,,Sbeïtla
+CLI009117,Sarra,Sfar,,Le Kef
+CLI009144,Hichem,Sfar,,Métlaoui
+CLI009164,Lamia,Mansouri,,Menzel Bourguiba
+CLI009179,Anis,Lahmar,,Mégrine
+CLI009197,Nizar,Belhadj,,Ezzahra
+CLI009211,Olfa,Sfar,,Sfax
+CLI009222,Riadh,Mansouri,,La Soukra
+CLI009255,Sonia,Lahmar,,Ksour Essef
+CLI009259,Moez,Belhadj,,Ben Arous
+CLI009269,Walid,Mansouri,,Tunis
+CLI009280,Siwar,Sfar,,Manouba
+CLI009289,Firas,Belhadj,,Kébili
+CLI009290,Hiba,Lahmar,,Medjez el-Bab
+CLI009305,Olfa,Belhadj,,Sfax
+CLI009306,Emna,Belhadj,,Sakiet Eddaïer
+CLI009309,Imen,Belhadj,,Menzel Bourguiba
+CLI009321,Sarra,Mansouri,,Kasserine
+CLI009334,Samia,Lahmar,,Monastir
+CLI009383,Hiba,Lahmar,,Sakiet Eddaïer
+CLI009387,Emna,Lahmar,,Sousse
+CLI009396,Khadija,Mansouri,,Nabeul
+CLI009403,Wafa,Mansouri,,Gabès
+CLI009412,Aymen,Lahmar,,Carthage
+CLI009428,Seif,Belhadj,,Sakiet Eddaïer
+CLI009441,Eya,Belhadj,,Den Den
+CLI009474,Nour,Lahmar,,Kélibia
+CLI009479,Chaima,Mansouri,,Sakiet Eddaïer
+CLI009495,Houda,Sfar,,Carthage
+CLI009518,Aya,Belhadj,,Sakiet Eddaïer
+CLI009533,Ines,Sfar,,Moknine
+CLI009554,Anis,Belhadj,,Sousse
+CLI009569,Omar,Belhadj,,Kalâa Kebira
+CLI009570,Salma,Belhadj,,Sfax
+CLI009574,Walid,Mansouri,,Sakiet Eddaïer
+CLI009581,Sonia,Mansouri,,Sakiet Eddaïer
+CLI009590,Mohamed,Mansouri,,Msaken
+CLI009620,Chaima,Belhadj,,Hammamet
+CLI009624,Anis,Sfar,,Makthar
+CLI009636,Tarek,Belhadj,,Ariana Ville
+CLI009644,Youssef,Mansouri,,Le Bardo
+CLI009652,Wassim,Mansouri,,Nabeul
+CLI009663,Hiba,Lahmar,,El Jem
+CLI009677,Ines,Lahmar,,Kasserine
+CLI009680,Salma,Belhadj,,Le Kef
+CLI009681,Mohamed,Mansouri,,Mateur
+CLI009684,Mouna,Lahmar,,Bizerte
+CLI009718,Samia,Mansouri,Mansouri Équipements Sarl,Gafsa
+CLI009725,Eya,Belhadj,,El Hamma
+CLI009748,Mouna,Belhadj,,Sousse
+CLI009753,Eya,Sfar,,Tozeur
+CLI009759,Seif,Mansouri,,Le Bardo
+CLI009764,Ahmed,Sfar,,Ksar Hellal
+CLI009769,Aymen,Sfar,,Tozeur
+CLI009772,Sami,Lahmar,,Manouba
+CLI009775,Sonia,Mansouri,,Bizerte
+CLI009786,Mohamed,Lahmar,,Sakiet Eddaïer
+CLI009802,Omar,Sfar,,Hammamet
+CLI009805,Mohamed,Mansouri,,El Hamma
+CLI009887,Salma,Sfar,,Carthage
+CLI009888,Nesrine,Mansouri,,Nabeul
+CLI009899,Salma,Lahmar,,Sousse
+CLI009909,Asma,Lahmar,,Regueb
+CLI009922,Mehdi,Belhadj,,Sfax
+CLI009927,Emna,Sfar,,Monastir
+CLI009929,Nabil,Mansouri,,Zaghouan
+CLI009964,Aymen,Sfar,,Oued Ellil
+CLI009997,Ahmed,Mansouri,,La Soukra
+CLI010012,Imen,Sfar,,La Soukra
+CLI010014,Amira,Mansouri,,Monastir
+CLI010022,Omar,Sfar,,Sousse
+CLI010027,Imen,Mansouri,,Aïn Draham
+CLI010065,Malek,Belhadj,,Sakiet Eddaïer
+CLI010069,Chaima,Mansouri,,Ezzahra
+CLI010071,Fatma,Lahmar,,Béja
+CLI010080,Walid,Mansouri,,Bizerte
+CLI010086,Omar,Sfar,,Sidi Bouzid
+CLI010103,Amine,Lahmar,,Radès
+CLI010111,Mouna,Lahmar,,Ben Arous
+CLI010119,Aymen,Lahmar,,Haffouz
+CLI010133,Fatma,Sfar,,Ariana Ville
+CLI010143,Samia,Lahmar,,Hammam Sousse
+CLI010151,Siwar,Mansouri,,Le Kef
+CLI010168,Skander,Lahmar,,Radès
+CLI010179,Samia,Sfar,,Tunis
+CLI010193,Omar,Sfar,,Sousse
+CLI010213,Firas,Lahmar,Lahmar Bureautique SA,Hammamet
+CLI010220,Wafa,Sfar,,Sakiet Ezzit
+CLI010229,Hiba,Mansouri,,Sfax
+CLI010234,Yasmine,Lahmar,,Kasserine
+CLI010243,Skander,Sfar,,Djerba Houmt Souk
+CLI010270,Malek,Sfar,,Redeyef
+CLI010277,Riadh,Sfar,,Médenine
+CLI010290,Samia,Belhadj,,Kairouan
+CLI010304,Malek,Belhadj,,Moknine
+CLI010310,Lamia,Mansouri,,Ben Arous
+CLI010317,Walid,Belhadj,,La Soukra
+CLI010355,Eya,Sfar,,Aïn Draham
+CLI010366,Houda,Lahmar,,Regueb
+CLI010372,Zied,Sfar,,Nabeul
+CLI010378,Mariem,Belhadj,,Béja
+CLI010380,Riadh,Mansouri,,Ezzahra
+CLI010390,Aymen,Sfar,,Den Den
+CLI010413,Samia,Belhadj,,Sakiet Eddaïer
+CLI010416,Yasmine,Sfar,,Sakiet Eddaïer
+CLI010423,Rania,Sfar,,Tataouine
+CLI010444,Dorra,Lahmar,,Zarzis
+CLI010450,Houda,Sfar,,Kélibia
+CLI010453,Bilel,Belhadj,,Métlaoui
+CLI010459,Karim,Mansouri,,Nabeul
+CLI010470,Habib,Sfar,,Radès
+CLI010479,Ali,Lahmar,,Haffouz
+CLI010480,Sonia,Belhadj,,Monastir
+CLI010503,Ines,Sfar,,Le Bardo
+CLI010504,Zied,Belhadj,Belhadj Équipements Sarl,Zarzis
+CLI010521,Leila,Mansouri,,Regueb
+CLI010537,Fatma,Sfar,,Monastir
+CLI010570,Mohamed,Belhadj,,Medjez el-Bab
+CLI010587,Fares,Lahmar,,Tozeur
+CLI010591,Ines,Lahmar,,Ksour Essef
+CLI010619,Ali,Mansouri,,Mégrine
+CLI010629,Leila,Mansouri,,Nabeul
+CLI010646,Mariem,Mansouri,,Le Bardo
+CLI010650,Rim,Sfar,,Kalâa Kebira
+CLI010654,Mariem,Mansouri,,Moknine
+CLI010662,Siwar,Mansouri,,Zarzis
+CLI010683,Rami,Sfar,,La Soukra
+CLI010695,Yasmine,Sfar,,Hammam Sousse
+CLI010696,Nour,Belhadj,,Mégrine
+CLI010698,Nesrine,Belhadj,,Kasserine
+CLI010725,Wafa,Lahmar,,Zarzis
+CLI010731,Nabil,Mansouri,,Ariana Ville
+CLI010738,Rim,Mansouri,,Kairouan
+CLI010752,Fatma,Mansouri,,Manouba
+CLI010761,Hamza,Sfar,,Sfax
+CLI010776,Moez,Sfar,,Sousse
+CLI010793,Malek,Mansouri,,Raoued
+CLI010838,Emna,Belhadj,,Mégrine
+CLI010874,Ines,Sfar,,Nabeul
+CLI010906,Nabil,Sfar,,Sakiet Eddaïer
+CLI010927,Chaima,Mansouri,,Dahmani
+CLI010943,Dorra,Lahmar,,Regueb
+CLI010964,Dorra,Lahmar,,Gabès
+CLI010970,Hichem,Belhadj,,Ben Arous
+CLI010980,Nour,Mansouri,,Sfax
+CLI010982,Moez,Belhadj,,Carthage
+CLI010984,Mariem,Lahmar,,La Soukra
+CLI011003,Mariem,Belhadj,,Aïn Draham
+CLI011012,Sarra,Mansouri,,Sousse
+CLI011018,Leila,Sfar,,Ghomrassen
+CLI011030,Hamza,Sfar,,El Hamma
+CLI011035,Rania,Mansouri,,Regueb
+CLI011041,Nesrine,Lahmar,,Zaghouan
+CLI011062,Nour,Mansouri,,Mateur
+CLI011080,Nizar,Belhadj,,Manouba
+CLI011097,Olfa,Belhadj,,Nabeul
+CLI011107,Houda,Mansouri,,Radès
+CLI011122,Youssef,Sfar,,Sakiet Eddaïer
+CLI011145,Wafa,Mansouri,,Medjez el-Bab
+CLI011147,Hamza,Lahmar,,Makthar
+CLI011148,Mariem,Belhadj,,Mateur
+CLI011152,Mehdi,Lahmar,,Manouba
+CLI011159,Nabil,Mansouri,,Ariana Ville
+CLI011180,Imen,Mansouri,,Le Bardo
+CLI011193,Wassim,Lahmar,,Carthage
+CLI011205,Ines,Lahmar,,Ariana Ville
+CLI011213,Mohamed,Belhadj,,La Soukra
+CLI011227,Sonia,Sfar,,Médenine
+CLI011241,Siwar,Sfar,,Carthage
+CLI011259,Mariem,Sfar,,Radès
+CLI011272,Ahmed,Belhadj,,Menzel Bourguiba
+CLI011284,Nour,Lahmar,,El Jem
+CLI011294,Fares,Lahmar,,Sakiet Ezzit
+CLI011304,Ahmed,Belhadj,,Haffouz
+CLI011313,Slim,Lahmar,,Ariana Ville
+CLI011323,Aya,Sfar,,Sbeïtla
+CLI011346,Aymen,Mansouri,,Carthage
+CLI011365,Fatma,Lahmar,,Gabès
+CLI011368,Lamia,Lahmar,,Kélibia
+CLI011370,Emna,Sfar,,Tunis
+CLI011387,Khadija,Belhadj,,Tataouine
+CLI011391,Fatma,Mansouri,,Ben Arous
+CLI011393,Houda,Mansouri,,Carthage
+CLI011397,Omar,Mansouri,,Monastir
+CLI011407,Houda,Lahmar,,Sakiet Eddaïer
+CLI011423,Nour,Belhadj,,Medjez el-Bab
+CLI011474,Anis,Belhadj,,Sbeïtla
+CLI011477,Hamza,Lahmar,,Mahdia
+CLI011484,Ali,Mansouri,,Djerba Houmt Souk
+CLI011487,Zied,Mansouri,,Hammam Sousse
+CLI011506,Habib,Lahmar,,Ariana Ville
+CLI011510,Mehdi,Lahmar,,Tabarka
+CLI011515,Lamia,Lahmar,,Sfax
+CLI011528,Sarra,Belhadj,,Haffouz
+CLI011532,Mariem,Lahmar,,Carthage
+CLI011540,Bilel,Mansouri,,Sakiet Eddaïer
+CLI011562,Malek,Mansouri,,Ariana Ville
+CLI011567,Sami,Mansouri,,Nabeul
+CLI011575,Sami,Mansouri,,Tunis
+CLI011581,Nabil,Sfar,,Le Kef
+CLI011610,Imen,Mansouri,,Carthage
+CLI011611,Skander,Lahmar,,Haffouz
+CLI011619,Rania,Belhadj,,Hammamet
+CLI011626,Siwar,Mansouri,,Mateur
+CLI011649,Youssef,Lahmar,,Sidi Bouzid
+CLI011670,Sami,Sfar,,Kairouan
+CLI011698,Yasmine,Mansouri,,Sfax
+CLI011704,Hichem,Sfar,,Haffouz
+CLI011709,Amira,Mansouri,,La Marsa
+CLI011715,Mohamed,Mansouri,,Sousse
+CLI011719,Houda,Sfar,,Menzel Bourguiba
+CLI011731,Rim,Sfar,,Sfax
+CLI011733,Chaima,Lahmar,,Mateur
+CLI011738,Moez,Lahmar,,Nabeul
+CLI011762,Fares,Lahmar,,Carthage
+CLI011773,Rami,Lahmar,,Carthage
+CLI011781,Sami,Sfar,,Gabès
+CLI011814,Olfa,Mansouri,,Kairouan
+CLI011831,Walid,Sfar,,Ghomrassen
+CLI011852,Slim,Mansouri,,Le Bardo
+CLI011856,Sonia,Mansouri,,Haffouz
+CLI011883,Malek,Lahmar,,Hammam Sousse
+CLI011888,Tarek,Lahmar,,Mateur
+CLI011906,Amira,Lahmar,,Hammamet
+CLI011920,Seif,Belhadj,,Mégrine
+CLI011934,Eya,Mansouri,,Haffouz
+CLI011937,Eya,Mansouri,,Douz
+CLI011940,Sarra,Lahmar,,Sakiet Eddaïer
+CLI011951,Riadh,Belhadj,,Sakiet Eddaïer
+CLI011953,Asma,Mansouri,,La Soukra
+CLI011963,Bilel,Lahmar,,Le Bardo
+CLI011987,Khadija,Belhadj,,Ben Arous
+CLI011999,Fatma,Lahmar,,Radès
+CLI012017,Skander,Lahmar,,Le Bardo
+CLI012022,Eya,Lahmar,,Gabès
+CLI012026,Mariem,Mansouri,,Béja
+CLI012059,Walid,Mansouri,,Sidi Bouzid
+CLI012060,Siwar,Belhadj,,Sfax
+CLI012074,Rim,Belhadj,,Moknine
+CLI012080,Lamia,Belhadj,,Radès
+CLI012109,Hamza,Belhadj,,Béja
+CLI012116,Samia,Lahmar,,Haffouz
+CLI012156,Ines,Mansouri,,Kalâa Kebira
+CLI012163,Rim,Belhadj,,Msaken
+CLI012169,Chaima,Sfar,,Tataouine
+CLI012171,Sonia,Mansouri,,Gabès
+CLI012172,Ali,Mansouri,,Gafsa
+CLI012181,Nesrine,Belhadj,,La Marsa
+CLI012182,Ines,Lahmar,,Béja
+CLI012193,Skander,Sfar,,Tunis
+CLI012204,Bilel,Lahmar,,Kélibia
+CLI012212,Mouna,Belhadj,Belhadj Commerce SA,La Marsa
+CLI012214,Riadh,Mansouri,,Sbeïtla
+CLI012237,Rim,Sfar,,Monastir
+CLI012244,Aya,Mansouri,,Kairouan
+CLI012266,Amira,Lahmar,,Djerba Houmt Souk
+CLI012271,Bilel,Sfar,,Mateur
+CLI012279,Salma,Belhadj,,Djerba Houmt Souk
+CLI012302,Zied,Mansouri,,Haffouz
+CLI012311,Mohamed,Mansouri,,Regueb
+CLI012315,Firas,Lahmar,,Bizerte
+CLI012319,Eya,Sfar,,Sousse
+CLI012330,Mohamed,Sfar,,Raoued
+CLI012331,Aymen,Belhadj,,Gabès
+CLI012339,Habib,Mansouri,,Hammamet
+CLI012355,Skander,Belhadj,,Sousse
+CLI012359,Fatma,Mansouri,,Mateur
+CLI012363,Eya,Belhadj,,Ezzahra
+CLI012371,Moez,Sfar,,Carthage
+CLI012384,Slim,Belhadj,,Ksour Essef
+CLI012387,Fares,Sfar,,Kélibia
+CLI012401,Ahmed,Sfar,,Sakiet Eddaïer
+CLI012413,Olfa,Sfar,,Mégrine
+CLI012418,Ali,Mansouri,,Tunis
+CLI012438,Amira,Sfar,Sfar Équipements Sarl,El Fahs
+CLI012450,Wafa,Mansouri,,Sousse
+CLI012532,Rania,Mansouri,,Aïn Draham
+CLI012535,Khadija,Sfar,,Tataouine
+CLI012555,Nizar,Belhadj,,Kélibia
+CLI012579,Ali,Lahmar,,Kasserine
+CLI012582,Ali,Belhadj,,Moknine
+CLI012591,Yasmine,Mansouri,,Mateur
+CLI012605,Houda,Belhadj,,Mégrine
+CLI012620,Emna,Mansouri,,Carthage
+CLI012623,Leila,Sfar,,Djerba Houmt Souk
+CLI012629,Lamia,Belhadj,,Siliana
+CLI012646,Olfa,Belhadj,,Kasserine
+CLI012647,Fatma,Mansouri,,Dahmani
+CLI012648,Siwar,Mansouri,,Sakiet Ezzit
+CLI012650,Youssef,Mansouri,,Sfax
+CLI012666,Mariem,Lahmar,,Sfax
+CLI012683,Rami,Belhadj,,Ksour Essef
+CLI012694,Emna,Sfar,,Sidi Bouzid
+CLI012696,Youssef,Lahmar,,Sakiet Ezzit
+CLI012708,Eya,Lahmar,,Nefta
+CLI012736,Rania,Lahmar,,Sfax
+CLI012737,Fares,Belhadj,,Sakiet Ezzit
+CLI012747,Hichem,Lahmar,,El Fahs
+CLI012758,Skander,Lahmar,,Sakiet Eddaïer
+CLI012760,Mouna,Belhadj,,Makthar
+CLI012761,Rim,Belhadj,,Manouba
+CLI012802,Siwar,Sfar,,Dahmani
+CLI012804,Anis,Sfar,,Nefta
+CLI012816,Nizar,Belhadj,,La Marsa
+CLI012818,Hamza,Sfar,,Sbeïtla
+CLI012820,Rania,Mansouri,,Tunis
+CLI012831,Walid,Sfar,,Sakiet Ezzit
+CLI012859,Rim,Mansouri,,Ezzahra
+CLI012860,Fatma,Lahmar,,Ezzahra
+CLI012863,Nesrine,Lahmar,,Msaken
+CLI012871,Wafa,Sfar,,Nefta
+CLI012890,Hichem,Sfar,,Gabès
+CLI012894,Anis,Sfar,,Sfax
+CLI012942,Salma,Belhadj,,Zarzis
+CLI012965,Asma,Sfar,,Ariana Ville
+CLI012970,Imen,Mansouri,,La Marsa
+CLI012976,Walid,Belhadj,,Den Den
+CLI012991,Anis,Lahmar,,Ksour Essef
+CLI012997,Nour,Lahmar,Lahmar Équipements Sarl,Sousse
+CLI013008,Slim,Lahmar,,Ghomrassen
+CLI013023,Fares,Sfar,,Radès
+CLI013054,Samia,Sfar,,Medjez el-Bab
+CLI013060,Zied,Lahmar,,Kasserine
+CLI013070,Nour,Mansouri,,Raoued
+CLI013073,Fatma,Mansouri,,Zaghouan
+CLI013075,Aya,Sfar,,Msaken
+CLI013078,Chaima,Lahmar,,Mateur
+CLI013091,Ines,Sfar,,Hammamet
+CLI013107,Leila,Sfar,,Medjez el-Bab
+CLI013112,Aya,Belhadj,,Kasserine
+CLI013123,Nizar,Lahmar,,Gabès
+CLI013145,Karim,Mansouri,,Monastir
+CLI013151,Nour,Belhadj,,Le Bardo
+CLI013168,Salma,Sfar,,Carthage
+CLI013199,Aymen,Lahmar,,Jendouba
+CLI013203,Olfa,Sfar,,Haffouz
+CLI013205,Amira,Mansouri,,Ariana Ville
+CLI013212,Rim,Mansouri,,La Marsa
+CLI013231,Sarra,Belhadj,,Sakiet Ezzit
+CLI013232,Sarra,Mansouri,,Menzel Bourguiba
+CLI013238,Asma,Belhadj,,Gafsa
+CLI013247,Seif,Belhadj,,Regueb
+CLI013258,Emna,Mansouri,,Kasserine
+CLI013260,Nabil,Sfar,,Ben Arous
+CLI013272,Bilel,Mansouri,,Mégrine
+CLI013288,Slim,Lahmar,,Manouba
+CLI013305,Amira,Belhadj,,Hammam Sousse
+CLI013324,Yasmine,Belhadj,,Ezzahra
+CLI013327,Amira,Mansouri,,Sbeïtla
+CLI013333,Salma,Lahmar,Lahmar Bureautique Sarl,Jendouba
+CLI013337,Omar,Mansouri,Mansouri Distribution Sarl,Nabeul
+CLI013338,Anis,Belhadj,,Le Kef
+CLI013342,Emna,Lahmar,,Carthage
+CLI013343,Salma,Mansouri,,Monastir
+CLI013349,Leila,Lahmar,,Monastir
+CLI013351,Imen,Mansouri,,Radès
+CLI013446,Tarek,Mansouri,,Ksour Essef
+CLI013453,Riadh,Sfar,,Ksour Essef
+CLI013465,Sonia,Lahmar,,Carthage
+CLI013477,Seif,Belhadj,,Moknine
+CLI013485,Nizar,Sfar,,Haffouz
+CLI013497,Leila,Lahmar,,Moknine
+CLI013504,Omar,Lahmar,,Djerba Houmt Souk
+CLI013517,Amira,Mansouri,Mansouri Bureautique SA,Redeyef
+CLI013519,Imen,Lahmar,,Raoued
+CLI013526,Rania,Mansouri,,Mégrine
+CLI013533,Eya,Mansouri,,Menzel Bourguiba
+CLI013546,Rami,Belhadj,,Mateur
+CLI013548,Sonia,Sfar,,Médenine
+CLI013568,Moez,Sfar,,Sakiet Eddaïer
+CLI013583,Amira,Belhadj,,Raoued
+CLI013591,Khadija,Sfar,,La Marsa
+CLI013593,Hiba,Mansouri,,Radès
+CLI013612,Skander,Belhadj,,Sakiet Ezzit
+CLI013635,Omar,Sfar,,Haffouz
+CLI013699,Aya,Lahmar,,Sbeïtla
+CLI013706,Rim,Lahmar,,Oued Ellil
+CLI013712,Aya,Mansouri,,Monastir
+CLI013742,Siwar,Belhadj,,La Marsa
+CLI013749,Emna,Mansouri,,Radès
+CLI013775,Mehdi,Mansouri,,Sousse
+CLI013792,Yasmine,Lahmar,,Regueb
+CLI013808,Asma,Sfar,,Kairouan
+CLI013809,Youssef,Sfar,,Radès
+CLI013812,Nizar,Mansouri,,Sakiet Eddaïer
+CLI013820,Hamza,Sfar,,Sfax
+CLI013822,Asma,Belhadj,,Zaghouan
+CLI013824,Anis,Sfar,,Haffouz
+CLI013833,Sami,Belhadj,,Djerba Houmt Souk
+CLI013852,Anis,Belhadj,,Kairouan
+CLI013890,Zied,Lahmar,,Monastir
+CLI013896,Tarek,Sfar,,Nabeul
+CLI013909,Salma,Lahmar,,Moknine
+CLI013916,Walid,Mansouri,,Jendouba
+CLI013921,Zied,Lahmar,,Zarzis
+CLI013930,Ahmed,Lahmar,,Menzel Bourguiba
+CLI013937,Fares,Sfar,,Siliana
+CLI013940,Hamza,Sfar,,Haffouz
+CLI013948,Malek,Sfar,,Nabeul
+CLI013983,Siwar,Sfar,,Haffouz
+CLI013987,Aya,Belhadj,,Béja
+CLI013988,Amira,Mansouri,,Ezzahra
+CLI014001,Malek,Mansouri,,Tabarka
+CLI014004,Wassim,Lahmar,,Raoued
+CLI014005,Leila,Sfar,,Djerba Houmt Souk
+CLI014016,Firas,Belhadj,,Monastir
+CLI014021,Nizar,Belhadj,,El Hamma
+CLI014028,Khadija,Sfar,,Tunis
+CLI014049,Chaima,Sfar,,Carthage
+CLI014051,Aya,Mansouri,,Hammam Sousse
+CLI014067,Rania,Mansouri,,Manouba
+CLI014070,Lamia,Mansouri,,Menzel Bourguiba
+CLI014087,Wassim,Lahmar,,Béja
+CLI014089,Emna,Lahmar,,Ksar Hellal
+CLI014093,Wassim,Lahmar,,Tunis
+CLI014109,Samia,Mansouri,,Kélibia
+CLI014112,Sami,Belhadj,,Sfax
+CLI014126,Firas,Mansouri,,Sousse
+CLI014127,Salma,Belhadj,,Kairouan
+CLI014131,Rania,Mansouri,,Ezzahra
+CLI014166,Malek,Sfar,,Menzel Bourguiba
+CLI014175,Lamia,Lahmar,,Monastir
+CLI014176,Zied,Lahmar,,Le Bardo
+CLI014182,Skander,Lahmar,,Kasserine
+CLI014184,Fares,Lahmar,,Ariana Ville
+CLI014203,Mariem,Belhadj,,Zarzis
+CLI014237,Ahmed,Belhadj,,Carthage
+CLI014247,Ahmed,Mansouri,,Zarzis
+CLI014273,Nizar,Lahmar,,Gafsa
+CLI014282,Asma,Belhadj,,La Marsa
+CLI014293,Rania,Lahmar,,Kasserine
+CLI014339,Sami,Belhadj,,Sidi Bouzid
+CLI014384,Anis,Lahmar,,Kasserine
+CLI014413,Anis,Mansouri,,Kasserine
+CLI014421,Rim,Sfar,,Hammamet
+CLI014424,Zied,Lahmar,,Bizerte
+CLI014446,Emna,Belhadj,,Sakiet Ezzit
+CLI014462,Eya,Sfar,,Sakiet Eddaïer
+CLI014482,Bilel,Mansouri,,Le Kef
+CLI014484,Samia,Belhadj,,Zarzis
+CLI014512,Mouna,Belhadj,,Sakiet Eddaïer
+CLI014547,Sarra,Mansouri,,Menzel Bourguiba
+CLI014559,Seif,Sfar,,El Fahs
+CLI014565,Habib,Mansouri,,La Marsa
+CLI014575,Nabil,Sfar,,Medjez el-Bab
+CLI014605,Rania,Sfar,,Kairouan
+CLI014627,Asma,Mansouri,,Oued Ellil
+CLI014643,Ines,Lahmar,,Carthage
+CLI014671,Fatma,Sfar,,Métlaoui
+CLI014676,Houda,Belhadj,,Manouba
+CLI014683,Hiba,Sfar,,Dahmani
+CLI014691,Imen,Mansouri,,Sakiet Ezzit
+CLI014708,Wassim,Lahmar,,Kélibia
+CLI014712,Wassim,Lahmar,,Den Den
+CLI014732,Amira,Lahmar,,Sakiet Eddaïer
+CLI014734,Mouna,Lahmar,,Msaken
+CLI014736,Youssef,Lahmar,,Ben Arous
+CLI014763,Mariem,Belhadj,,Kalâa Kebira
+CLI014764,Wafa,Mansouri,,Le Bardo
+CLI014769,Olfa,Mansouri,,La Marsa
+CLI014771,Lamia,Mansouri,,Sakiet Eddaïer
+CLI014791,Eya,Sfar,,Kélibia
+CLI014792,Imen,Sfar,,Zaghouan
+CLI014793,Yasmine,Lahmar,,El Fahs
+CLI014810,Mehdi,Lahmar,,Sfax
+CLI014817,Malek,Mansouri,,Raoued
+CLI014819,Mouna,Lahmar,,Menzel Bourguiba
+CLI014829,Amine,Belhadj,,La Soukra
+CLI014833,Mariem,Lahmar,,Moknine
+CLI014834,Aya,Belhadj,,Mateur
+CLI014857,Anis,Mansouri,,Oued Ellil
+CLI014879,Anis,Belhadj,,Jendouba
+CLI014897,Lamia,Sfar,,Oued Ellil
+CLI014904,Samia,Belhadj,,Menzel Bourguiba
+CLI014912,Walid,Sfar,,Sfax
+CLI014915,Aya,Mansouri,,La Marsa
+CLI014927,Zied,Belhadj,,Haffouz
+CLI014936,Amira,Lahmar,,Le Bardo
+CLI014944,Habib,Lahmar,,Manouba
+CLI014959,Lamia,Mansouri,,Sfax
+CLI014961,Chaima,Lahmar,,Oued Ellil
+CLI014968,Rim,Lahmar,,Hammamet
+CLI014991,Skander,Lahmar,,Moknine
+CLI014999,Nizar,Belhadj,,Kairouan
+CLI015015,Malek,Belhadj,,Sfax
+CLI015028,Aymen,Belhadj,,Haffouz
+CLI015031,Ali,Belhadj,,Ksar Hellal
+CLI015050,Sonia,Mansouri,,Gabès
+CLI015064,Mohamed,Lahmar,,Sbeïtla
+CLI015073,Tarek,Lahmar,,Djerba Houmt Souk
+CLI015077,Nabil,Sfar,,Mégrine
+CLI015080,Habib,Belhadj,,Ksar Hellal
+CLI015105,Ali,Sfar,,Sousse
+CLI015108,Salma,Lahmar,,Tataouine
+CLI015109,Mouna,Lahmar,,Haffouz
+CLI015127,Nesrine,Lahmar,,Kairouan
+CLI015131,Fatma,Mansouri,,Medjez el-Bab
+CLI015148,Nizar,Sfar,,Haffouz
+CLI015158,Emna,Sfar,,Hammamet
+CLI015166,Omar,Belhadj,,La Marsa
+CLI015177,Khadija,Lahmar,,Le Kef
+CLI015196,Ines,Belhadj,,Tunis
+CLI015201,Khadija,Lahmar,,Ben Arous
+CLI015219,Nabil,Mansouri,,Moknine
+CLI015238,Aymen,Belhadj,,Ariana Ville
+CLI015250,Karim,Sfar,,Aïn Draham
+CLI015253,Nabil,Belhadj,,Carthage
+CLI015255,Dorra,Mansouri,,Métlaoui
+CLI015268,Wassim,Lahmar,,Sfax
+CLI015281,Slim,Sfar,,Kélibia
+CLI015330,Lamia,Mansouri,,El Hamma
+CLI015370,Ines,Sfar,,Menzel Bourguiba
+CLI015382,Sonia,Mansouri,,Hammam Sousse
+CLI015414,Ines,Lahmar,,Métlaoui
+CLI015459,Aymen,Belhadj,,La Soukra
+CLI015461,Hichem,Lahmar,,Ksour Essef
+CLI015469,Mohamed,Belhadj,,Oued Ellil
+CLI015475,Mariem,Lahmar,,Tunis
+CLI015482,Amine,Mansouri,,Mégrine
+CLI015493,Ines,Belhadj,,El Jem
+CLI015502,Wafa,Mansouri,,Carthage
+CLI015513,Sonia,Sfar,,Nabeul
+CLI015549,Bilel,Sfar,,Dahmani
+CLI015554,Yasmine,Mansouri,,La Soukra
+CLI015560,Eya,Lahmar,,Menzel Bourguiba
+CLI015572,Khadija,Belhadj,,Sfax
+CLI015580,Youssef,Lahmar,,Raoued
+CLI015591,Nabil,Sfar,,Carthage
+CLI015603,Nour,Belhadj,,Carthage
+CLI015604,Bilel,Sfar,,Ariana Ville
+CLI015625,Ines,Belhadj,,Aïn Draham
+CLI015636,Moez,Lahmar,,Sousse
+CLI015640,Nabil,Mansouri,,Le Bardo
+CLI015648,Lamia,Lahmar,,Tunis
+CLI015657,Chaima,Sfar,,Le Bardo
+CLI015662,Amira,Belhadj,,Ksour Essef
+CLI015667,Firas,Belhadj,,Aïn Draham
+CLI015705,Emna,Belhadj,,Mégrine
+CLI015743,Salma,Sfar,,La Marsa
+CLI015756,Fatma,Sfar,,La Marsa
+CLI015786,Emna,Mansouri,,Sfax
+CLI015787,Malek,Mansouri,,Carthage
+CLI015799,Samia,Mansouri,,Sousse
+CLI015808,Lamia,Mansouri,,Ben Arous
+CLI015815,Ines,Mansouri,,Sakiet Ezzit
+CLI015819,Rami,Lahmar,,Oued Ellil
+CLI015831,Emna,Mansouri,,Kairouan
+CLI015837,Ines,Belhadj,,Ezzahra
+CLI015848,Chaima,Mansouri,,Monastir
+CLI015854,Khadija,Mansouri,,Sidi Bouzid
+CLI015855,Yasmine,Mansouri,,Carthage
+CLI015875,Ahmed,Mansouri,,Sidi Bouzid
+CLI015880,Salma,Mansouri,,Moknine
+CLI015882,Zied,Mansouri,,Ezzahra
+CLI015885,Aya,Sfar,,Den Den
+CLI015906,Riadh,Mansouri,,Ksar Hellal
+CLI015944,Fares,Belhadj,,Carthage
+CLI015989,Fares,Belhadj,,Sfax

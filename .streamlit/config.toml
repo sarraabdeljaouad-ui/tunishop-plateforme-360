@@ -1,0 +1,31 @@
+# Thème TuniShop · Vue 360 : couleurs et formes des maquettes (dossier Maquettes)
+[theme]
+base = "light"
+primaryColor = "#0F4C5C"            # bleu canard foncé : boutons, onglet actif, liens
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F6F9"
+textColor = "#1F2A37"
+linkColor = "#0F4C5C"
+redColor = "#B42318"
+greenColor = "#1E7B4F"
+orangeColor = "#B45309"
+blueColor = "#1F4E79"
+grayColor = "#5B6675"
+font = "Inter, 'Segoe UI', system-ui, sans-serif"
+headingFont = "Inter, 'Segoe UI', system-ui, sans-serif"
+headingFontWeights = [700, 650, 650]
+baseFontSize = 15
+baseRadius = "12px"
+buttonRadius = "10px"
+borderColor = "#E3E8EE"
+dataframeBorderColor = "#E3E8EE"
+dataframeHeaderBackgroundColor = "#FFFFFF"
+showSidebarBorder = true
+chartCategoricalColors = ["#0F4C5C", "#9CC3C9", "#1B7F8C", "#D97706", "#B42318", "#1E7B4F", "#7B4F9E", "#8C8C8C"]
+
+[theme.sidebar]
+backgroundColor = "#F4F6F9"
+secondaryBackgroundColor = "#FFFFFF"
+
+[server]
+runOnSave = true

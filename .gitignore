@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.streamlit/secrets.toml
+*.pyc
+tests/rapport_fumee.csv
+donnees_demo/
+.DS_Store
+*.rar
+*.zip
+*.rar
+*.zip

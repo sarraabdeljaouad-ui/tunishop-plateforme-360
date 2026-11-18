@@ -1,0 +1,13 @@
+# Versions minimales. Après installation, fige les versions exactes avec : pip freeze > requirements-fige.txt
+streamlit>=1.40
+pandas>=2.2
+numpy>=1.26
+sqlalchemy>=2.0
+pyodbc>=5.0
+# Mode démonstration (lecture des fichiers Parquet de demo_data/, sans SQL Server)
+duckdb>=1.1
+sqlglot>=25.0
+pyarrow>=15.0
+plotly>=5.20
+rapidfuzz>=3.6
+pytest>=8.0

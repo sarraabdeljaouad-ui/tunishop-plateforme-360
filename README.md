@@ -2,7 +2,7 @@
 
 Auteure : Sarra Abdeljaouad · Étape 9 du projet TuniShop
 
-> **Démo en ligne : [LIEN À COMPLÉTER APRÈS DÉPLOIEMENT]**
+> **Démo en ligne : https://tunishopsarraapps.streamlit.app**
 
 Taper un client, un produit, un fournisseur ou un numéro de commande (même avec des fautes) et voir tout ce
 qui le concerne sur une seule fiche : indicateurs, historique, prédictions des modèles de machine learning

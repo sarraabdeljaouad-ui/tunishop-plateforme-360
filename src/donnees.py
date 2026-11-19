@@ -118,7 +118,7 @@ def alertes_churn(n: int = 10) -> tuple[int, pd.DataFrame]:
                      WHERE r.client_id = s.client_id
                      ORDER BY r.date_observation DESC OFFSET 1 ROWS FETCH NEXT 1 ROWS ONLY) AS prec
         WHERE s.decile_risque <= 2 AND s.date_scoring = {dernier}      -- risque élevé (cf. churn_risque_eleve)
-        ORDER BY s.proba_churn * s.montant_reconnu_ttc DESC""", n=n)
+        ORDER BY s.proba_churn * s.montant_reconnu_ttc DESC, s.client_id""", n=n)
     return total, detail
 
 
@@ -144,7 +144,7 @@ def alertes_rupture(n: int = 10) -> tuple[int, pd.DataFrame]:
                               r.demande_t1, i.fournisseur_id, i.nom_fournisseur
                        FROM ({base}) AS r
                        LEFT JOIN app.v_produit_identite AS i ON i.produit_id = r.produit_id
-                       ORDER BY r.mois_rupture, r.demande_t1 DESC""", n=n)
+                       ORDER BY r.mois_rupture, r.demande_t1 DESC, r.produit_id""", n=n)
     return total, detail
 
 
@@ -154,7 +154,7 @@ def alertes_fournisseurs(n: int = 10) -> tuple[int, pd.DataFrame]:
     total = int(_lire(f"SELECT COUNT(*) AS n {filtre}", seuil=SEUIL_ECART_FIABILITE).iat[0, 0])
     detail = _lire(f"""SELECT TOP (:n) fournisseur_id AS id, nom_fournisseur AS fournisseur, pays,
                               fiabilite_annoncee, fiabilite_reelle, ecart_fiabilite, delai_annonce_j, delai_reel_moyen_j, tolerance_retard_j
-                       {filtre} ORDER BY ecart_fiabilite""", n=n, seuil=SEUIL_ECART_FIABILITE)
+                       {filtre} ORDER BY ecart_fiabilite, fournisseur_id""", n=n, seuil=SEUIL_ECART_FIABILITE)
     return total, detail
 
 
@@ -166,7 +166,7 @@ def alertes_colis(n: int = 10) -> tuple[int, pd.DataFrame]:
     total = int(_lire(f"SELECT COUNT(*) AS n {filtre}").iat[0, 0])
     detail = _lire(f"""SELECT TOP (:n) commande_id AS id, livraison_id, transporteur, region,
                               date_expedition, proba_retard
-                       {filtre} ORDER BY proba_retard DESC""", n=n)
+                       {filtre} ORDER BY proba_retard DESC, commande_id""", n=n)
     return total, detail
 
 
@@ -224,12 +224,12 @@ def client_commandes(client_id: str, n: int = 10) -> pd.DataFrame:
 def client_produits(client_id: str, n: int = 10) -> pd.DataFrame:
     return _lire("""SELECT TOP (:n) produit_id AS id, nom_produit, categorie, quantite, montant_ttc, dernier_achat
                     FROM app.v_client_produits WHERE client_id = :id
-                    ORDER BY montant_ttc DESC""", id=client_id, n=n)
+                    ORDER BY montant_ttc DESC, produit_id""", id=client_id, n=n)
 
 
 def client_habitudes(client_id: str) -> pd.DataFrame:
     return _lire("""SELECT dimension, valeur, nb_commandes, montant_ttc FROM app.v_client_habitudes
-                    WHERE client_id = :id ORDER BY dimension, nb_commandes DESC, montant_ttc DESC""", id=client_id)
+                    WHERE client_id = :id ORDER BY dimension, nb_commandes DESC, montant_ttc DESC, valeur""", id=client_id)
 
 
 def client_experience(client_id: str) -> pd.DataFrame:
@@ -307,7 +307,7 @@ def regles_categorie(categorie: str, sous_categorie: str) -> pd.DataFrame:
                     WHERE stable = 1
                       AND ((niveau = N'catégorie' AND antecedents = :c)
                         OR (niveau = N'sous-catégorie' AND antecedents = :s))
-                    ORDER BY lift_2025 DESC""", c=categorie, s=sous_categorie)
+                    ORDER BY lift_2025 DESC, niveau, antecedents, consequents""", c=categorie, s=sous_categorie)
 
 
 def produit_themes(produit_id: str) -> pd.DataFrame:
@@ -315,7 +315,7 @@ def produit_themes(produit_id: str) -> pd.DataFrame:
     return _lire("""SELECT theme, COUNT(*) AS nb_avis,
                            SUM(CASE WHEN polarite = N'négatif' THEN 1 ELSE 0 END) AS nb_negatifs
                     FROM pbi.v_tm_avis_themes WHERE produit_id = :id
-                    GROUP BY theme ORDER BY COUNT(*) DESC""", id=produit_id)
+                    GROUP BY theme ORDER BY COUNT(*) DESC, theme""", id=produit_id)
 
 
 def produit_synthese_avis(produit_id: str) -> pd.DataFrame:
@@ -411,7 +411,7 @@ def fournisseur_produits(fournisseur_id: str, annee: int) -> pd.DataFrame:
         LEFT JOIN rang AS r ON r.produit_id = i.produit_id
         LEFT JOIN dem  AS d ON d.produit_id = i.produit_id
         WHERE i.fournisseur_id = :id
-        ORDER BY r.ca_ttc DESC""", id=fournisseur_id, a=annee)
+        ORDER BY r.ca_ttc DESC, i.produit_id""", id=fournisseur_id, a=annee)
 
 
 def fournisseur_demande(fournisseur_id: str) -> pd.DataFrame:
@@ -434,12 +434,12 @@ def commande_fiche(commande_id: str) -> pd.DataFrame:
 def commande_lignes(commande_id: str) -> pd.DataFrame:
     return _lire("""SELECT produit_id AS id, nom_produit, quantite, prix_unitaire_ttc, montant_ttc,
                            quantite_retournee, montant_rembourse_ttc, motif_retour, statut_retour
-                    FROM app.v_commande_lignes WHERE commande_id = :id ORDER BY montant_ttc DESC""", id=commande_id)
+                    FROM app.v_commande_lignes WHERE commande_id = :id ORDER BY montant_ttc DESC, produit_id""", id=commande_id)
 
 
 def commande_avis(commande_id: str) -> pd.DataFrame:
     return _lire("""SELECT avis_id, produit_id, date_avis, note, langue, texte_nettoye, themes, polarite_globale
-                    FROM pbi.v_tm_avis WHERE commande_id = :id ORDER BY date_avis""", id=commande_id)
+                    FROM pbi.v_tm_avis WHERE commande_id = :id ORDER BY date_avis, avis_id""", id=commande_id)
 
 
 def prediction_retard(livraison_id: str) -> pd.DataFrame:
@@ -554,7 +554,7 @@ def retard_regions(transporteur: str, annee: int) -> pd.DataFrame:
     return _lire("""SELECT region, COUNT(*) AS colis, AVG(CAST(en_retard AS float)) AS taux
                     FROM app.v_livraison_detail
                     WHERE transporteur = :t AND annee = :a AND est_livree = 1 AND region IS NOT NULL
-                    GROUP BY region ORDER BY taux DESC""", t=transporteur, a=annee)
+                    GROUP BY region ORDER BY taux DESC, region""", t=transporteur, a=annee)
 
 
 def colis_en_cours(transporteur: str) -> pd.DataFrame:
@@ -570,7 +570,7 @@ def colis_en_cours(transporteur: str) -> pd.DataFrame:
                     LEFT JOIN TuniShop_DWH.bi.v_dim_date        AS dp ON dp.date_sk = l.date_prevue_sk
                     WHERE s.transporteur = :t
                       AND s.date_scoring = (SELECT MAX(date_scoring) FROM pbi.v_ml_scores_retard)
-                    ORDER BY s.proba_retard DESC""", t=transporteur)
+                    ORDER BY s.proba_retard DESC, s.commande_id""", t=transporteur)
 
 
 # ---------------------------------------------------------------------------
@@ -625,13 +625,13 @@ def tm_themes(categorie: str | None = None, annee: int | None = None) -> pd.Data
     return _lire(f"""SELECT t.theme, COUNT(*) AS mentions,
                             SUM(CASE WHEN t.polarite = N'négatif' THEN 1 ELSE 0 END) AS negatives
                      FROM pbi.v_tm_avis_themes AS t{w}
-                     GROUP BY t.theme ORDER BY COUNT(*) DESC""", **prm)
+                     GROUP BY t.theme ORDER BY COUNT(*) DESC, t.theme""", **prm)
 
 
 @st.cache_data(ttl=600, show_spinner=False)
 def tm_langues(categorie: str | None = None, annee: int | None = None) -> pd.DataFrame:
     w, prm = _filtres_avis(categorie, annee)
-    return _lire(f"SELECT a.langue, COUNT(*) AS avis FROM pbi.v_tm_avis AS a{w} GROUP BY a.langue ORDER BY COUNT(*) DESC", **prm)
+    return _lire(f"SELECT a.langue, COUNT(*) AS avis FROM pbi.v_tm_avis AS a{w} GROUP BY a.langue ORDER BY COUNT(*) DESC, a.langue", **prm)
 
 
 @st.cache_data(ttl=600, show_spinner=False)
@@ -642,14 +642,14 @@ def tm_expressions_derja(categorie: str | None = None, annee: int | None = None,
     return _lire(f"""SELECT TOP (:n) a.texte_nettoye AS expression, MAX(a.texte_fr) AS sens,
                             MAX(a.polarite_globale) AS polarite, COUNT(*) AS avis
                      FROM pbi.v_tm_avis AS a{w}
-                     GROUP BY a.texte_nettoye ORDER BY COUNT(*) DESC""", n=n, **prm)
+                     GROUP BY a.texte_nettoye ORDER BY COUNT(*) DESC, a.texte_nettoye""", n=n, **prm)
 
 
 @st.cache_data(ttl=3600, show_spinner=False)
 def tm_verification() -> pd.DataFrame:
     """Confrontation thème x polarité aux faits du DWH (toutes catégories, toute la période)."""
     return _lire("""SELECT theme, polarite, avis, part_colis_en_retard, part_retour, motifs_lies, part_retour_motif_lie
-                    FROM pbi.v_tm_verification_faits ORDER BY avis DESC""")
+                    FROM pbi.v_tm_verification_faits ORDER BY avis DESC, theme, polarite""")
 
 
 # ---------------------------------------------------------------------------
@@ -666,7 +666,7 @@ def ml_modeles() -> pd.DataFrame:
 def ml_registre() -> pd.DataFrame:
     return _lire("""SELECT nom, cas, role, version, appris_le, periode_apprentissage, lignes_apprentissage,
                            nb_variables, seuil, source, notes
-                    FROM pbi.v_ml_registre ORDER BY cas, appris_le DESC""")
+                    FROM pbi.v_ml_registre ORDER BY cas, appris_le DESC, nom""")
 
 
 @st.cache_data(ttl=600, show_spinner=False)

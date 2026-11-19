@@ -3,6 +3,8 @@
 Auteure : Sarra Abdeljaouad · Étape 9 du projet TuniShop
 
 > **Démo en ligne : https://tunishopsarraapps.streamlit.app**
+>
+> **Version HTML** (site statique, mêmes données) : [sarraabdeljaouad-ui.github.io/Tunishop-plateforme-360-web](https://sarraabdeljaouad-ui.github.io/Tunishop-plateforme-360-web/) · code : [sarraabdeljaouad-ui/Tunishop-plateforme-360-web](https://github.com/sarraabdeljaouad-ui/Tunishop-plateforme-360-web)
 
 Taper un client, un produit, un fournisseur ou un numéro de commande (même avec des fautes) et voir tout ce
 qui le concerne sur une seule fiche : indicateurs, historique, prédictions des modèles de machine learning

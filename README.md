@@ -53,7 +53,7 @@ src/regles.py           règles métier (rupture, score fournisseur…)
 src/ui.py, format.py    composants d'affichage, formats à la française
 sql/                    scripts des vues app (01 à 06)
 scripts/exporter_demo.py export des vues en Parquet
-tests/                  70 tests (pages, recherche, règles, mode démo) + test de fumée sur la vraie base
+tests/                  73 tests (pages, recherche, règles, mode démo) + test de fumée sur la vraie base
 ```
 
 ## Recette

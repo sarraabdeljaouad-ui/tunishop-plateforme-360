@@ -283,4 +283,7 @@ def donnees_factices(monkeypatch):
         "cas": ["retard", "churn"], "objet": ["SahelLog", "global"], "periode": ["2025-12", "2025-T4"],
         "indicateur": ["écart taux prévu / réel", "AUC"], "valeur": [0.20, 0.81], "seuil": [0.05, 0.75],
         "statut": ["alerte", "ok"]}))
+    monkeypatch.setattr(donnees, "ml_suivi_historique", lambda: pd.DataFrame({
+        "date_donnees": ["2025-12-31", "2025-12-31"], "cas": ["retard", "churn"],
+        "indicateurs": [60, 30], "alertes": [14, 1]}))
     return donnees

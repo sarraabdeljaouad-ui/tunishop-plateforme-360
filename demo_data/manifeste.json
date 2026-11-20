@@ -1,5 +1,5 @@
 {
-  "date_export": "17/11/2026",
+  "date_export": "20/11/2026",
   "serveur": "localhost",
   "objets": {
     "TuniShop_DWH.bi.v_dim_client": 16002,
@@ -39,7 +39,7 @@
     "app.v_produit_kpi": 596,
     "app.v_produit_stock_mois": 18854,
     "app.v_produit_ventes_mois": 14995,
-    "ctl.v_derniere_execution": 19,
+    "ctl.v_derniere_execution": 20,
     "pbi.v_dm_regles": 260,
     "pbi.v_eda_vue_ensemble": 3,
     "pbi.v_ml_modeles": 17,
@@ -48,7 +48,7 @@
     "pbi.v_ml_scores_churn": 7377,
     "pbi.v_ml_scores_demande": 7140,
     "pbi.v_ml_scores_retard": 211,
-    "pbi.v_ml_suivi": 123,
+    "pbi.v_ml_suivi": 171,
     "pbi.v_ml_ventes": 216,
     "pbi.v_tm_avis": 6081,
     "pbi.v_tm_avis_themes": 10034,

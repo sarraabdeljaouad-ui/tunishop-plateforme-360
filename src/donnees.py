@@ -671,6 +671,23 @@ def ml_registre() -> pd.DataFrame:
 
 @st.cache_data(ttl=600, show_spinner=False)
 def ml_suivi() -> pd.DataFrame:
-    """Indicateurs de suivi de la dernière exécution (le suivi n'est pas historisé)."""
+    """Indicateurs de suivi de la dernière exécution."""
     return _lire("SELECT cas, objet, periode, indicateur, valeur, seuil, statut FROM pbi.v_ml_suivi")
+
+
+@st.cache_data(ttl=600, show_spinner=False)
+def ml_suivi_historique() -> pd.DataFrame:
+    """Nombre d'indicateurs et d'alertes de chaque modèle, à chaque exécution du suivi (étape 7, version 1.5).
+
+    Une exécution est repérée par la date de ses données. Table vide si la base précède la version 1.5.
+    """
+    try:
+        t = _lire("""SELECT date_donnees, cas, COUNT(*) AS indicateurs,
+                            SUM(CASE WHEN statut = 'ALERTE' THEN 1 ELSE 0 END) AS alertes
+                     FROM pbi.v_ml_suivi_historique
+                     GROUP BY date_donnees, cas
+                     ORDER BY date_donnees, cas""")
+        return t.assign(date_donnees=pd.to_datetime(t["date_donnees"]).dt.strftime("%Y-%m-%d"))
+    except Exception:                       # vue absente : étape 7 antérieure à la version 1.5
+        return pd.DataFrame(columns=["date_donnees", "cas", "indicateurs", "alertes"])
 

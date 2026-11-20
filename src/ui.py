@@ -17,7 +17,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-VERSION = "v0.13.3"
+VERSION = "v0.14.0"
 
 # Palette des maquettes
 FONCE, CANARD, CLAIR = "#0F4C5C", "#1B7F8C", "#9CC3C9"

@@ -8,14 +8,16 @@ Adresse : /modeles
 Auteure : Sarra Abdeljaouad
 """
 import pandas as pd
+import plotly.graph_objects as go
 import streamlit as st
 
 from src import donnees, ui
-from src.format import nombre, pct
+from src.format import date_fr, nombre, pct
 
 modeles = donnees.ml_modeles()
 registre = donnees.ml_registre()
 suivi = donnees.ml_suivi()
+historique = donnees.ml_suivi_historique()
 
 TITRE = {"ventes": "Prévision des ventes", "churn": "Churn client", "demande": "Demande par produit",
          "retard": "Retard de livraison"}
@@ -113,7 +115,7 @@ with g, st.container(border=True):
                      nombre(r["valeur"], 3), nombre(r["seuil"], 3),
                      ui.badge(ui.e(r["statut"]), "orange" if r["alerte"] else "vert")] for _, r in t.head(12).iterrows()])
         st.caption(f"{len(suivi)} indicateurs suivis" + (" · 12 premiers, alertes d'abord" if len(suivi) > 12 else "")
-                   + ". Le suivi ne garde que la dernière exécution : pas encore de courbe dans le temps.")
+                   + ". Évolution dans le temps : ci-dessous.")
 
 with d, st.container(border=True):
     ui.titre_carte("Variables les plus importantes · churn", "ana.ml03_importance")
@@ -126,7 +128,75 @@ with d, st.container(border=True):
                    "La récence explique l'essentiel du modèle.")
 
 # ---------------------------------------------------------------------------
-# 4. Registre
+# 4. Suivi dans le temps : alertes à chaque exécution | retard mois par mois
+# ---------------------------------------------------------------------------
+COULEURS = {"ventes": ui.CANARD, "churn": ui.ROUGE, "demande": ui.ORANGE, "retard": ui.FONCE}
+SERIES = [ui.CANARD, ui.BLEU, ui.ROUGE, ui.ORANGE, ui.GRIS]       # transporteurs, ordre alphabétique
+
+
+MOIS_COURTS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."]
+
+
+def mois_court(periode) -> str:
+    """'2025-01' -> 'janv. 2025'."""
+    t = pd.Timestamp(f"{periode}-01")
+    return f"{MOIS_COURTS[t.month - 1]} {t.year}"
+
+
+ui.section("Suivi dans le temps")
+g, d = st.columns(2, gap="medium")
+with g, st.container(border=True):
+    ui.titre_carte("Alertes à chaque exécution", "pbi.v_ml_suivi_historique")
+    if historique.empty:
+        st.caption("Historique non publié : il commence avec la version 1.5 de l'étape 7.")
+    else:
+        h = (historique.assign(cle=historique["cas"].map(cle_cas))
+             .groupby(["date_donnees", "cle"], as_index=False)[["indicateurs", "alertes"]].sum())
+        dates = sorted(h["date_donnees"].unique())
+        fig = go.Figure()
+        for k in TITRE:
+            alertes = h[h["cle"] == k].set_index("date_donnees")["alertes"].reindex(dates, fill_value=0)
+            fig.add_trace(go.Scatter(x=[date_fr(x) for x in dates], y=alertes, name=TITRE[k], mode="lines+markers",
+                                     marker=dict(size=9), line=dict(color=COULEURS[k], width=2)))
+        ui.styler(fig, 260).update_yaxes(rangemode="tozero", tickformat="d")
+        st.plotly_chart(fig, width="stretch", config={"displayModeBar": False})
+        dernier = h[h["date_donnees"] == dates[-1]]
+        texte = (f"Dernière exécution (données au {date_fr(dates[-1])}) : {nombre(dernier['alertes'].sum())} alertes "
+                 f"sur {nombre(dernier['indicateurs'].sum())} indicateurs.")
+        if len(dates) == 1:
+            texte += (" Une seule exécution pour l'instant : un point par modèle. La courbe se remplit à chaque "
+                      "exécution de la chaîne sur des données plus récentes.")
+        else:
+            texte += f" {len(dates)} exécutions depuis les données au {date_fr(dates[0])}."
+        st.caption(texte)
+
+with d, st.container(border=True):
+    production = suivi[suivi["cas"] == "retard_production"]
+    rejeu = production if not production.empty else suivi[suivi["cas"] == "retard"]
+    ui.titre_carte("Retard de livraison : écart prévu − réel, mois par mois", "pbi.v_ml_suivi")
+    if rejeu.empty:
+        st.caption("Suivi mensuel du retard non publié.")
+    else:
+        seuil = float(rejeu["seuil"].iloc[0])
+        p = rejeu.pivot_table(index="periode", columns="objet", values="valeur").sort_index()
+        fig = go.Figure()
+        for i, tr in enumerate(p.columns):
+            fig.add_trace(go.Scatter(x=[mois_court(m) for m in p.index], y=p[tr], name=tr, mode="lines+markers",
+                                     line=dict(width=2, color=SERIES[i % len(SERIES)])))
+        for y in (-seuil, seuil):
+            fig.add_hline(y=y, line=dict(color=ui.ROUGE, width=1, dash="dash"))
+        ui.styler(fig, 260).update_yaxes(tickformat=".0%")
+        fig.update_xaxes(tickangle=0, dtick=2)                     # un mois sur deux, à l'horizontale
+        st.plotly_chart(fig, width="stretch", config={"displayModeBar": False})
+        n = int(rejeu["alerte"].sum())
+        modele = ("modèle de production, réappris chaque mois sur 12 mois" if not production.empty
+                  else "modèle évalué, appris sur 2023-2024")
+        st.caption(f"{modele.capitalize()} · {nombre(n)} alerte{'s' if n > 1 else ''} sur {nombre(len(rejeu))} "
+                   f"(transporteur × mois) · pointillés : seuils de ±{nombre(seuil * 100)} points. "
+                   "Sous zéro, le modèle sous-estime le retard.")
+
+# ---------------------------------------------------------------------------
+# 5. Registre
 # ---------------------------------------------------------------------------
 with st.container(border=True):
     ui.titre_carte("Registre des versions", "pbi.v_ml_registre")

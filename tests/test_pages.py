@@ -16,8 +16,8 @@ def lancer(**query):
 
 
 def texte(at) -> str:
-    """Tout le HTML/markdown affiché par la page (les cartes KPI et tableaux sont du HTML)."""
-    return " ".join(m.value for m in at.markdown)
+    """Tout le HTML/markdown affiché par la page (les cartes KPI et tableaux sont du HTML), légendes comprises."""
+    return " ".join([m.value for m in at.markdown] + [c.value for c in at.caption])
 
 
 def test_accueil_sans_erreur(donnees_factices):
@@ -302,6 +302,40 @@ def test_page_modeles(donnees_factices):
     assert "+3,0 %" in t                                               # churn : gain recalculé (0,818 / 0,794)
     assert "Retard de livraison" in t and "À surveiller" in t        # alerte du suivi sur le retard
     assert "churn_production" in t and "recence_j" in t
+    assert "Suivi dans le temps" in t and "Alertes à chaque exécution" in t           # v0.14 : courbes de suivi
+    assert "Dernière exécution (données au 31/12/2025) : 15 alertes sur 90 indicateurs" in t
+    assert "Une seule exécution pour l'instant" in t
+    assert "Modèle évalué, appris sur 2023-2024 · 1 alerte sur 1" in t               # pas de rejeu : repli sur « retard »
+
+
+def test_modeles_historique_et_modele_de_production(donnees_factices, monkeypatch):
+    import pandas as pd
+    monkeypatch.setattr(donnees_factices, "ml_suivi_historique", lambda: pd.DataFrame({
+        "date_donnees": ["2025-12-31", "2025-12-31", "2026-01-31", "2026-01-31"], "cas": ["retard", "churn"] * 2,
+        "indicateurs": [60, 30, 60, 30], "alertes": [14, 1, 9, 0]}))
+    monkeypatch.setattr(donnees_factices, "ml_suivi", lambda: pd.DataFrame({
+        "cas": ["retard_production"] * 4, "objet": ["SahelLog", "TunExpress"] * 2,
+        "periode": ["2025-11", "2025-11", "2025-12", "2025-12"], "indicateur": ["écart taux prévu - réel"] * 4,
+        "valeur": [-0.08, 0.01, -0.02, 0.0], "seuil": [0.05] * 4, "statut": ["ALERTE", "OK", "OK", "OK"]}))
+    at = AppTest.from_file(APP, default_timeout=DELAI)
+    at.switch_page("pages/modeles.py")
+    at.run()
+    assert not at.exception
+    t = texte(at)
+    assert "Dernière exécution (données au 31/01/2026) : 9 alertes sur 90 indicateurs" in t
+    assert "2 exécutions depuis les données au 31/12/2025" in t
+    assert "Modèle de production, réappris chaque mois sur 12 mois · 1 alerte sur 4" in t
+
+
+def test_modeles_sans_historique(donnees_factices, monkeypatch):
+    import pandas as pd
+    monkeypatch.setattr(donnees_factices, "ml_suivi_historique",
+                        lambda: pd.DataFrame(columns=["date_donnees", "cas", "indicateurs", "alertes"]))
+    at = AppTest.from_file(APP, default_timeout=DELAI)
+    at.switch_page("pages/modeles.py")
+    at.run()
+    assert not at.exception
+    assert "Historique non publié" in texte(at)
 
 
 def test_remboursement_sans_retour(donnees_factices, monkeypatch):

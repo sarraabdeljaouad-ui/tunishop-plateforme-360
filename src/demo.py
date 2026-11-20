@@ -39,7 +39,8 @@ OBJETS = [
     "app.v_produit_identite", "app.v_produit_kpi", "app.v_produit_stock_mois", "app.v_produit_ventes_mois",
     "ctl.v_derniere_execution",
     "pbi.v_dm_regles", "pbi.v_eda_vue_ensemble", "pbi.v_ml_modeles", "pbi.v_ml_registre", "pbi.v_ml_retard",
-    "pbi.v_ml_scores_churn", "pbi.v_ml_scores_demande", "pbi.v_ml_scores_retard", "pbi.v_ml_suivi", "pbi.v_ml_ventes",
+    "pbi.v_ml_scores_churn", "pbi.v_ml_scores_demande", "pbi.v_ml_scores_retard", "pbi.v_ml_suivi",
+    "pbi.v_ml_suivi_historique", "pbi.v_ml_ventes",
     "pbi.v_tm_avis", "pbi.v_tm_avis_themes", "pbi.v_tm_produits", "pbi.v_tm_verification_faits",
 ]
 

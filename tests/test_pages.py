@@ -327,6 +327,27 @@ def test_modeles_historique_et_modele_de_production(donnees_factices, monkeypatc
     assert "Modèle de production, réappris chaque mois sur 12 mois · 1 alerte sur 4" in t
 
 
+def test_modeles_ligne_de_production(donnees_factices, monkeypatch):
+    """v0.14.1 : la carte distingue le modèle évalué (mesure 2025) du modèle de production (registre)."""
+    import pandas as pd
+    monkeypatch.setattr(donnees_factices, "ml_registre", lambda: pd.DataFrame({
+        "nom": ["churn_production", "retard_production"], "cas": ["churn", "retard"], "role": ["production"] * 2,
+        "version": ["2026.11.20.1402", "2026.11.20.1403"], "appris_le": ["2026-11-20 14:02:47", "2026-11-20 14:03:05"],
+        "periode_apprentissage": ["photos du 2023-06-30 au 2025-09-30",
+                                  "expéditions du 2024-12-31 au 2025-12-30 (12 derniers mois)"],
+        "lignes_apprentissage": [43488.0, 26647.0], "nb_variables": [30, 15], "seuil": [0.37, 0.22],
+        "source": ["TuniShop_DWH"] * 2, "notes": [None, None]}))
+    at = AppTest.from_file(APP, default_timeout=DELAI)
+    at.switch_page("pages/modeles.py")
+    at.run()
+    assert not at.exception
+    t = texte(at)
+    assert "Modèle évalué : Régression logistique" in t
+    assert ("En production : 2026.11.20.1403 · expéditions du 31/12/2024 au 30/12/2025 (12 derniers mois) · "
+            "seuil d'alerte 0,22") in t
+    assert "En production : 2026.11.20.1402 · photos du 30/06/2023 au 30/09/2025 · seuil d'alerte 0,37" in t
+
+
 def test_modeles_sans_historique(donnees_factices, monkeypatch):
     import pandas as pd
     monkeypatch.setattr(donnees_factices, "ml_suivi_historique",

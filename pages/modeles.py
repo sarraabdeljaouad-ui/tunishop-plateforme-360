@@ -7,6 +7,8 @@ variables les plus importantes du churn, registre des versions.
 Adresse : /modeles
 Auteure : Sarra Abdeljaouad
 """
+import re
+
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
@@ -34,6 +36,22 @@ def cle_cas(cas) -> str:
 def est_alerte(statut) -> bool:
     s = str(statut).lower()
     return "alerte" in s or "ko" == s or "dépass" in s or "depass" in s
+
+
+def ligne_production(ver) -> str:
+    """Ce qui tourne chaque nuit (registre, v1.5) : version, données d'apprentissage, seuil d'alerte.
+
+    La mesure 2025 de la carte reste celle du modèle évalué ; cette ligne montre le modèle de production,
+    qui peut être réappris sur une autre fenêtre (retard : 12 derniers mois) avec un autre seuil.
+    """
+    if ver is None:
+        return ""
+    morceaux = [ui.e(ver["version"])] if pd.notna(ver["version"]) else []
+    if pd.notna(ver["periode_apprentissage"]):
+        morceaux.append(ui.e(re.sub(r"(\d{4})-(\d{2})-(\d{2})", r"\3/\2/\1", str(ver["periode_apprentissage"]))))
+    if pd.notna(ver["seuil"]):
+        morceaux.append(f"seuil d'alerte {nombre(ver['seuil'], 2)}")
+    return f"En production : {' · '.join(morceaux)}" if morceaux else ""
 
 
 def format_mesure(mesure, valeur) -> str:
@@ -65,8 +83,8 @@ for k in cles:
     r = retenus[retenus["cle"] == k].iloc[0]
     alerte = bool(suivi.loc[suivi["cle"] == k, "alerte"].any())
     etat = ui.badge("À surveiller", "orange") if alerte else ui.badge("Actif", "vert")
-    version = registre[(registre["cas"].map(cle_cas) == k)]
-    version = f" · {ui.e(version.iloc[0]['version'])}" if not version.empty and pd.notna(version.iloc[0]["version"]) else ""
+    ver = registre[(registre["cas"].map(cle_cas) == k)]
+    production = ligne_production(None if ver.empty else ver.iloc[0])
     # Gain face à la référence : positif = le modèle fait mieux (moins d'erreur, ou AUC plus haute),
     # comme dans le PV global (« MAPE 9,5 % (−37,5 % d'erreur) », « AUC 0,818 (+2,9 %) »).
     erreur = any(m in str(r["mesure"]).upper() for m in ERREUR)
@@ -86,11 +104,12 @@ for k in cles:
     cartes.append(
         f'<div class="ts-kpi"><div style="display:flex;justify-content:space-between;align-items:center">'
         f'<b style="font-size:1.05rem">{ui.e(TITRE.get(k, r["cas"]))}</b>{etat}</div>'
-        f'<div class="ts-kpi-note">{ui.e(r["modele"])}{version}</div>'
+        f'<div class="ts-kpi-note">Modèle évalué : {ui.e(r["modele"])}</div>'
         f'<div class="ts-kpi-label" style="margin-top:.5rem">{ui.e(r["mesure"])} 2025</div>'
         f'<div class="ts-kpi-valeur">{format_mesure(r["mesure"], r["valeur_test"])}</div>'
         f'<span class="ts-kpi-delta">{txt_gain}</span>'
-        f'<div class="ts-kpi-note" style="margin-top:.4rem;color:{ui.FONCE}">Alimente : {ALIMENTE.get(k, "—")}</div></div>')
+        + (f'<div class="ts-kpi-note" style="margin-top:.4rem">{production}</div>' if production else "")
+        + f'<div class="ts-kpi-note" style="margin-top:.4rem;color:{ui.FONCE}">Alimente : {ALIMENTE.get(k, "—")}</div></div>')
 ui.rangee_kpi(cartes, colonnes=max(len(cartes), 1))
 
 # ---------------------------------------------------------------------------
